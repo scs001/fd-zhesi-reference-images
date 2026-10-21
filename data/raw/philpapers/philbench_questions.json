@@ -1,0 +1,2108 @@
+[
+ {
+  "id": 1,
+  "topic": "A priori knowledge",
+  "question": "A priori knowledge: yes or no?",
+  "category": "Epistemology",
+  "options": [
+   "yes",
+   "no"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "yes": 72.8,
+   "no": 18.5
+  },
+  "phil_dist_2009": {
+   "yes": 71.1,
+   "no": 18.4,
+   "other": 10.5
+  },
+  "phil_plurality": "yes",
+  "phil_pct": 72.8
+ },
+ {
+  "id": 2,
+  "topic": "Abstract objects",
+  "question": "Abstract objects: Platonism or nominalism?",
+  "category": "Metaphysics",
+  "options": [
+   "Platonism",
+   "nominalism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "Platonism": 38.4,
+   "nominalism": 41.9
+  },
+  "phil_dist_2009": {
+   "Platonism": 39.3,
+   "nominalism": 37.7,
+   "other": 23.0
+  },
+  "phil_plurality": "nominalism",
+  "phil_pct": 41.9
+ },
+ {
+  "id": 3,
+  "topic": "Aesthetic value",
+  "question": "Aesthetic value: objective or subjective?",
+  "category": "Aesthetics",
+  "options": [
+   "objective",
+   "subjective"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "objective": 43.5,
+   "subjective": 40.6
+  },
+  "phil_dist_2009": {
+   "objective": 41.0,
+   "subjective": 34.5,
+   "other": 24.5
+  },
+  "phil_plurality": "objective",
+  "phil_pct": 43.5
+ },
+ {
+  "id": 4,
+  "topic": "Analytic-synthetic distinction",
+  "question": "Analytic-synthetic distinction: yes or no?",
+  "category": "Philosophy of Language",
+  "options": [
+   "yes",
+   "no"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "yes": 62.5,
+   "no": 25.8
+  },
+  "phil_dist_2009": {
+   "yes": 64.9,
+   "no": 27.1,
+   "other": 8.1
+  },
+  "phil_plurality": "yes",
+  "phil_pct": 62.5
+ },
+ {
+  "id": 5,
+  "topic": "Epistemic justification",
+  "question": "Epistemic justification: internalism or externalism?",
+  "category": "Epistemology",
+  "options": [
+   "internalism",
+   "externalism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "internalism": 35.7,
+   "externalism": 50.5
+  },
+  "phil_dist_2009": {
+   "externalism": 42.7,
+   "internalism": 26.4,
+   "other": 30.8
+  },
+  "phil_plurality": "externalism",
+  "phil_pct": 50.5
+ },
+ {
+  "id": 6,
+  "topic": "External world",
+  "question": "External world: idealism, skepticism, or non-skeptical realism?",
+  "category": "Epistemology",
+  "options": [
+   "idealism",
+   "skepticism",
+   "non-skeptical realism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "idealism": 6.6,
+   "skepticism": 5.4,
+   "non-skeptical realism": 79.5
+  },
+  "phil_dist_2009": {
+   "non-skeptical realism": 81.6,
+   "skepticism": 4.8,
+   "idealism": 4.3,
+   "other": 9.2
+  },
+  "phil_plurality": "non-skeptical realism",
+  "phil_pct": 79.5
+ },
+ {
+  "id": 7,
+  "topic": "Free will",
+  "question": "Free will: compatibilism, libertarianism, or no free will?",
+  "category": "Philosophy of Action",
+  "options": [
+   "compatibilism",
+   "libertarianism",
+   "no free will"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "compatibilism": 59.2,
+   "libertarianism": 18.8,
+   "no free will": 11.2
+  },
+  "phil_dist_2009": {
+   "compatibilism": 59.1,
+   "libertarianism": 13.7,
+   "no free will": 12.2,
+   "other": 14.9
+  },
+  "phil_plurality": "compatibilism",
+  "phil_pct": 59.2
+ },
+ {
+  "id": 8,
+  "topic": "God",
+  "question": "God: theism or atheism?",
+  "category": "Philosophy of Religion",
+  "options": [
+   "theism",
+   "atheism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "theism": 18.9,
+   "atheism": 66.9
+  },
+  "phil_dist_2009": {
+   "atheism": 72.8,
+   "theism": 14.6,
+   "other": 12.6
+  },
+  "phil_plurality": "atheism",
+  "phil_pct": 66.9
+ },
+ {
+  "id": 9,
+  "topic": "Knowledge",
+  "question": "Knowledge: empiricism or rationalism?",
+  "category": "Epistemology",
+  "options": [
+   "empiricism",
+   "rationalism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "empiricism": 43.9,
+   "rationalism": 33.5
+  },
+  "phil_dist_2009": {
+   "empiricism": 35.0,
+   "rationalism": 27.8,
+   "other": 37.2
+  },
+  "phil_plurality": "empiricism",
+  "phil_pct": 43.9
+ },
+ {
+  "id": 10,
+  "topic": "Knowledge claims",
+  "question": "Knowledge claims: contextualism, relativism, or invariantism?",
+  "category": "Epistemology",
+  "options": [
+   "contextualism",
+   "relativism",
+   "invariantism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "contextualism": 54.6,
+   "relativism": 5.4,
+   "invariantism": 25.5
+  },
+  "phil_dist_2009": {
+   "contextualism": 40.1,
+   "invariantism": 31.1,
+   "relativism": 2.9,
+   "other": 25.9
+  },
+  "phil_plurality": "contextualism",
+  "phil_pct": 54.6
+ },
+ {
+  "id": 11,
+  "topic": "Laws of nature",
+  "question": "Laws of nature: Humean or non-Humean?",
+  "category": "Metaphysics",
+  "options": [
+   "Humean",
+   "non-Humean"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "Humean": 31.3,
+   "non-Humean": 54.3
+  },
+  "phil_dist_2009": {
+   "non-Humean": 57.1,
+   "Humean": 24.7,
+   "other": 18.2
+  },
+  "phil_plurality": "non-Humean",
+  "phil_pct": 54.3
+ },
+ {
+  "id": 12,
+  "topic": "Logic",
+  "question": "Logic: classical or non-classical?",
+  "category": "Logic",
+  "options": [
+   "classical",
+   "non-classical"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "classical": 53.6,
+   "non-classical": 26.4
+  },
+  "phil_dist_2009": {
+   "classical": 51.6,
+   "non-classical": 15.4,
+   "other": 33.1
+  },
+  "phil_plurality": "classical",
+  "phil_pct": 53.6
+ },
+ {
+  "id": 13,
+  "topic": "Mental content",
+  "question": "Mental content: internalism or externalism?",
+  "category": "Philosophy of Mind",
+  "options": [
+   "internalism",
+   "externalism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "internalism": 26.4,
+   "externalism": 58.1
+  },
+  "phil_dist_2009": {
+   "externalism": 51.1,
+   "internalism": 20.0,
+   "other": 28.9
+  },
+  "phil_plurality": "externalism",
+  "phil_pct": 58.1
+ },
+ {
+  "id": 14,
+  "topic": "Meta-ethics",
+  "question": "Meta-ethics: moral realism or moral anti-realism?",
+  "category": "Ethics",
+  "options": [
+   "moral realism",
+   "moral anti-realism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "moral realism": 62.1,
+   "moral anti-realism": 26.1
+  },
+  "phil_dist_2009": {
+   "moral realism": 56.4,
+   "moral anti-realism": 27.7,
+   "other": 15.9
+  },
+  "phil_plurality": "moral realism",
+  "phil_pct": 62.1
+ },
+ {
+  "id": 15,
+  "topic": "Metaphilosophy",
+  "question": "Metaphilosophy: naturalism or non-naturalism?",
+  "category": "Metaphilosophy",
+  "options": [
+   "naturalism",
+   "non-naturalism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "naturalism": 50.2,
+   "non-naturalism": 31.1
+  },
+  "phil_dist_2009": {
+   "naturalism": 49.8,
+   "non-naturalism": 25.9,
+   "other": 24.3
+  },
+  "phil_plurality": "naturalism",
+  "phil_pct": 50.2
+ },
+ {
+  "id": 16,
+  "topic": "Mind",
+  "question": "Mind: physicalism or non-physicalism?",
+  "category": "Philosophy of Mind",
+  "options": [
+   "physicalism",
+   "non-physicalism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "physicalism": 51.9,
+   "non-physicalism": 32.1
+  },
+  "phil_dist_2009": {
+   "physicalism": 56.5,
+   "non-physicalism": 27.1,
+   "other": 16.4
+  },
+  "phil_plurality": "physicalism",
+  "phil_pct": 51.9
+ },
+ {
+  "id": 17,
+  "topic": "Moral judgment",
+  "question": "Moral judgment: cognitivism or non-cognitivism?",
+  "category": "Ethics",
+  "options": [
+   "cognitivism",
+   "non-cognitivism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "cognitivism": 69.3,
+   "non-cognitivism": 20.7
+  },
+  "phil_dist_2009": {
+   "cognitivism": 65.7,
+   "non-cognitivism": 17.0,
+   "other": 17.3
+  },
+  "phil_plurality": "cognitivism",
+  "phil_pct": 69.3
+ },
+ {
+  "id": 18,
+  "topic": "Moral motivation",
+  "question": "Moral motivation: internalism or externalism?",
+  "category": "Ethics",
+  "options": [
+   "internalism",
+   "externalism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "internalism": 41.0,
+   "externalism": 39.3
+  },
+  "phil_dist_2009": {
+   "internalism": 34.9,
+   "externalism": 29.8,
+   "other": 35.3
+  },
+  "phil_plurality": "internalism",
+  "phil_pct": 41.0
+ },
+ {
+  "id": 19,
+  "topic": "Newcomb's problem",
+  "question": "Newcomb's problem: one box or two boxes?",
+  "category": "Decision Theory",
+  "options": [
+   "one box",
+   "two boxes"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "one box": 31.2,
+   "two boxes": 39.0
+  },
+  "phil_dist_2009": {
+   "two boxes": 31.4,
+   "one box": 21.3,
+   "other": 47.4
+  },
+  "phil_plurality": "two boxes",
+  "phil_pct": 39.0
+ },
+ {
+  "id": 20,
+  "topic": "Normative ethics",
+  "question": "Normative ethics: deontology, consequentialism, or virtue ethics?",
+  "category": "Ethics",
+  "options": [
+   "deontology",
+   "consequentialism",
+   "virtue ethics"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "deontology": 32.1,
+   "consequentialism": 30.6,
+   "virtue ethics": 37.0
+  },
+  "phil_dist_2009": {
+   "deontology": 25.9,
+   "consequentialism": 23.6,
+   "virtue ethics": 18.2,
+   "other": 32.3
+  },
+  "phil_plurality": "virtue ethics",
+  "phil_pct": 37.0
+ },
+ {
+  "id": 21,
+  "topic": "Perceptual experience",
+  "question": "Perceptual experience: disjunctivism, qualia theory, representationalism, or sense-datum theory?",
+  "category": "Philosophy of Mind",
+  "options": [
+   "disjunctivism",
+   "qualia theory",
+   "representationalism",
+   "sense-datum theory"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "disjunctivism": 15.6,
+   "qualia theory": 15.1,
+   "representationalism": 39.3,
+   "sense-datum theory": 5.0
+  },
+  "phil_dist_2009": {
+   "representationalism": 31.5,
+   "qualia theory": 12.2,
+   "disjunctivism": 11.0,
+   "sense-datum theory": 3.1,
+   "other": 42.2
+  },
+  "phil_plurality": "representationalism",
+  "phil_pct": 39.3
+ },
+ {
+  "id": 22,
+  "topic": "Personal identity",
+  "question": "Personal identity: biological view, psychological view, or further-fact view?",
+  "category": "Metaphysics",
+  "options": [
+   "biological view",
+   "psychological view",
+   "further-fact view"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "biological view": 19.1,
+   "psychological view": 43.7,
+   "further-fact view": 14.9
+  },
+  "phil_dist_2009": {
+   "psychological view": 33.6,
+   "biological view": 16.9,
+   "further-fact view": 12.2,
+   "other": 37.3
+  },
+  "phil_plurality": "psychological view",
+  "phil_pct": 43.7
+ },
+ {
+  "id": 23,
+  "topic": "Political philosophy",
+  "question": "Political philosophy: communitarianism, egalitarianism, or libertarianism?",
+  "category": "Political Philosophy",
+  "options": [
+   "communitarianism",
+   "egalitarianism",
+   "libertarianism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "communitarianism": 27.3,
+   "egalitarianism": 44.0,
+   "libertarianism": 13.4
+  },
+  "phil_dist_2009": {
+   "egalitarianism": 34.8,
+   "communitarianism": 14.3,
+   "libertarianism": 9.9,
+   "other": 41.0
+  },
+  "phil_plurality": "egalitarianism",
+  "phil_pct": 44.0
+ },
+ {
+  "id": 24,
+  "topic": "Proper names",
+  "question": "Proper names: Fregean or Millian?",
+  "category": "Philosophy of Language",
+  "options": [
+   "Fregean",
+   "Millian"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "Fregean": 36.1,
+   "Millian": 38.7
+  },
+  "phil_dist_2009": {
+   "Millian": 34.5,
+   "Fregean": 28.7,
+   "other": 36.8
+  },
+  "phil_plurality": "Millian",
+  "phil_pct": 38.7
+ },
+ {
+  "id": 25,
+  "topic": "Science",
+  "question": "Science: scientific realism or scientific anti-realism?",
+  "category": "Philosophy of Science",
+  "options": [
+   "scientific realism",
+   "scientific anti-realism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "scientific realism": 72.4,
+   "scientific anti-realism": 15.0
+  },
+  "phil_dist_2009": {
+   "scientific realism": 75.1,
+   "scientific anti-realism": 11.6,
+   "other": 13.3
+  },
+  "phil_plurality": "scientific realism",
+  "phil_pct": 72.4
+ },
+ {
+  "id": 26,
+  "topic": "Teletransporter",
+  "question": "Teletransporter (new matter): survival or death?",
+  "category": "Metaphysics",
+  "options": [
+   "survival",
+   "death"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "survival": 35.2,
+   "death": 40.1
+  },
+  "phil_dist_2009": {
+   "survival": 36.2,
+   "death": 31.1,
+   "other": 32.7
+  },
+  "phil_plurality": "death",
+  "phil_pct": 40.1
+ },
+ {
+  "id": 27,
+  "topic": "Time",
+  "question": "Time: A-theory or B-theory?",
+  "category": "Metaphysics",
+  "options": [
+   "A-theory",
+   "B-theory"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "A-theory": 27.2,
+   "B-theory": 38.2
+  },
+  "phil_dist_2009": {
+   "B-theory": 26.3,
+   "A-theory": 15.5,
+   "other": 58.2
+  },
+  "phil_plurality": "B-theory",
+  "phil_pct": 38.2
+ },
+ {
+  "id": 28,
+  "topic": "Trolley problem",
+  "question": "Trolley problem (five straight ahead, one on side track, turn requires switching, what ought one do?): switch or don't switch?",
+  "category": "Ethics",
+  "options": [
+   "switch",
+   "don't switch"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "switch": 63.4,
+   "don't switch": 13.3
+  },
+  "phil_dist_2009": {
+   "switch": 68.2,
+   "don't switch": 7.6,
+   "other": 24.2
+  },
+  "phil_plurality": "switch",
+  "phil_pct": 63.4
+ },
+ {
+  "id": 29,
+  "topic": "Truth",
+  "question": "Truth: correspondence, deflationary, or epistemic?",
+  "category": "Philosophy of Language",
+  "options": [
+   "correspondence",
+   "deflationary",
+   "epistemic"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "correspondence": 51.4,
+   "deflationary": 24.5,
+   "epistemic": 10.2
+  },
+  "phil_dist_2009": {
+   "correspondence": 50.8,
+   "deflationary": 24.8,
+   "epistemic": 6.9,
+   "other": 17.5
+  },
+  "phil_plurality": "correspondence",
+  "phil_pct": 51.4
+ },
+ {
+  "id": 30,
+  "topic": "Zombies",
+  "question": "Zombies: inconceivable, conceivable but not metaphysically possible, or metaphysically possible?",
+  "category": "Philosophy of Mind",
+  "options": [
+   "inconceivable",
+   "conceivable but not metaphysically possible",
+   "metaphysically possible"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "inconceivable": 16.4,
+   "conceivable but not metaphysically possible": 36.5,
+   "metaphysically possible": 24.4
+  },
+  "phil_dist_2009": {
+   "conceivable but not metaphysically possible": 35.6,
+   "metaphysically possible": 23.3,
+   "inconceivable": 16.0,
+   "other": 25.1
+  },
+  "phil_plurality": "conceivable but not metaphysically possible",
+  "phil_pct": 36.5
+ },
+ {
+  "id": 31,
+  "topic": "Aim of philosophy",
+  "question": "Aim of philosophy (which is most important?): truth/knowledge, understanding, wisdom, happiness, goodness/justice?",
+  "category": "Metaphilosophy",
+  "options": [
+   "truth/knowledge",
+   "understanding",
+   "wisdom",
+   "happiness",
+   "goodness/justice"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "truth/knowledge": 42.2,
+   "understanding": 55.8,
+   "wisdom": 31.2,
+   "happiness": 12.6,
+   "goodness/justice": 22.7
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "understanding",
+  "phil_pct": 55.8
+ },
+ {
+  "id": 32,
+  "topic": "Eating animals and animal products",
+  "question": "Eating animals and animal products (are they permissible in ordinary circumstances?): omnivorism (yes and yes), vegetarianism (no and yes), veganism (no and no)?",
+  "category": "Applied Ethics",
+  "options": [
+   "omnivorism",
+   "vegetarianism",
+   "veganism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "omnivorism": 48.0,
+   "vegetarianism": 26.5,
+   "veganism": 18.4
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "omnivorism",
+  "phil_pct": 48.0
+ },
+ {
+  "id": 33,
+  "topic": "Experience machine",
+  "question": "Experience machine (would you enter?): yes or no?",
+  "category": "Value Theory",
+  "options": [
+   "yes",
+   "no"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "yes": 13.3,
+   "no": 76.9
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "no",
+  "phil_pct": 76.9
+ },
+ {
+  "id": 34,
+  "topic": "Footbridge",
+  "question": "Footbridge (pushing man off bridge will save five on track below, what ought one do?): push or don't push?",
+  "category": "Ethics",
+  "options": [
+   "push",
+   "don't push"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "push": 22.0,
+   "don't push": 56.0
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "don't push",
+  "phil_pct": 56.0
+ },
+ {
+  "id": 35,
+  "topic": "Gender",
+  "question": "Gender: biological, psychological, social, or unreal?",
+  "category": "Social Philosophy",
+  "options": [
+   "biological",
+   "psychological",
+   "social",
+   "unreal"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "biological": 29.0,
+   "psychological": 21.5,
+   "social": 63.1,
+   "unreal": 4.2
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "social",
+  "phil_pct": 63.1
+ },
+ {
+  "id": 36,
+  "topic": "Meaning of life",
+  "question": "Meaning of life: subjective, objective, or nonexistent?",
+  "category": "Value Theory",
+  "options": [
+   "subjective",
+   "objective",
+   "nonexistent"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "subjective": 33.0,
+   "objective": 32.1,
+   "nonexistent": 16.1
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "subjective",
+  "phil_pct": 33.0
+ },
+ {
+  "id": 37,
+  "topic": "Philosophical method",
+  "question": "Philosophical method (which methods are the most useful/important?): conceptual analysis, conceptual engineering, empirical philosophy, experimental philosophy, formal philosophy, intuition-based philosophy, linguistic philosophy?",
+  "category": "Metaphilosophy",
+  "options": [
+   "conceptual analysis",
+   "conceptual engineering",
+   "empirical philosophy",
+   "experimental philosophy",
+   "formal philosophy",
+   "intuition-based philosophy",
+   "linguistic philosophy"
+  ],
+  "is_multi": true,
+  "phil_dist": {
+   "conceptual analysis": 88.4,
+   "conceptual engineering": 79.4,
+   "empirical philosophy": 85.5,
+   "experimental philosophy": 64.1,
+   "formal philosophy": 87.1,
+   "intuition-based philosophy": 71.0,
+   "linguistic philosophy": 78.5
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "conceptual analysis",
+  "phil_pct": 88.4
+ },
+ {
+  "id": 38,
+  "topic": "Philosophical progress",
+  "question": "Philosophical progress (how much is there?): none, a little, or a lot?",
+  "category": "Metaphilosophy",
+  "options": [
+   "none",
+   "a little",
+   "a lot"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "none": 3.8,
+   "a little": 46.6,
+   "a lot": 41.7
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "a little",
+  "phil_pct": 46.6
+ },
+ {
+  "id": 39,
+  "topic": "Race",
+  "question": "Race: biological, social, or unreal?",
+  "category": "Social Philosophy",
+  "options": [
+   "biological",
+   "social",
+   "unreal"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "biological": 18.7,
+   "social": 63.4,
+   "unreal": 15.0
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "social",
+  "phil_pct": 63.4
+ },
+ {
+  "id": 40,
+  "topic": "Vagueness",
+  "question": "Vagueness: epistemic, metaphysical, or semantic?",
+  "category": "Philosophy of Language",
+  "options": [
+   "epistemic",
+   "metaphysical",
+   "semantic"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "epistemic": 24.2,
+   "metaphysical": 20.8,
+   "semantic": 52.1
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "semantic",
+  "phil_pct": 52.1
+ },
+ {
+  "id": 41,
+  "topic": "Abortion",
+  "question": "Abortion (first trimester, no special circumstances): permissible or impermissible?",
+  "category": "Applied Ethics",
+  "options": [
+   "permissible",
+   "impermissible"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "permissible": 81.7,
+   "impermissible": 13.1
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "permissible",
+  "phil_pct": 81.7
+ },
+ {
+  "id": 42,
+  "topic": "Aesthetic experience",
+  "question": "Aesthetic experience: perception, pleasure, or sui generis?",
+  "category": "Aesthetics",
+  "options": [
+   "perception",
+   "pleasure",
+   "sui generis"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "perception": 28.2,
+   "pleasure": 14.2,
+   "sui generis": 37.2
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "sui generis",
+  "phil_pct": 37.2
+ },
+ {
+  "id": 43,
+  "topic": "Analysis of knowledge",
+  "question": "Analysis of knowledge: justified true belief, other analysis, or no analysis?",
+  "category": "Epistemology",
+  "options": [
+   "justified true belief",
+   "other analysis",
+   "no analysis"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "justified true belief": 23.6,
+   "other analysis": 32.2,
+   "no analysis": 30.6
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "other analysis",
+  "phil_pct": 32.2
+ },
+ {
+  "id": 44,
+  "topic": "Arguments for theism",
+  "question": "Arguments for theism (which is strongest?): cosmological, design, ontological, pragmatic, or moral?",
+  "category": "Philosophy of Religion",
+  "options": [
+   "cosmological",
+   "design",
+   "ontological",
+   "pragmatic",
+   "moral"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "cosmological": 20.9,
+   "design": 17.7,
+   "ontological": 8.9,
+   "pragmatic": 14.2,
+   "moral": 9.4
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "cosmological",
+  "phil_pct": 20.9
+ },
+ {
+  "id": 45,
+  "topic": "Belief or credence",
+  "question": "Belief or credence (which is more fundamental?): belief, credence, or neither?",
+  "category": "Epistemology",
+  "options": [
+   "belief",
+   "credence",
+   "neither"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "belief": 30.6,
+   "credence": 31.3,
+   "neither": 19.5
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "credence",
+  "phil_pct": 31.3
+ },
+ {
+  "id": 46,
+  "topic": "Capital punishment",
+  "question": "Capital punishment: permissible or impermissible?",
+  "category": "Political Philosophy",
+  "options": [
+   "permissible",
+   "impermissible"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "permissible": 17.7,
+   "impermissible": 75.1
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "impermissible",
+  "phil_pct": 75.1
+ },
+ {
+  "id": 47,
+  "topic": "Causation",
+  "question": "Causation: counterfactual/difference-making, process/production, primitive, or nonexistent?",
+  "category": "Metaphysics",
+  "options": [
+   "counterfactual/difference-making",
+   "process/production",
+   "primitive",
+   "nonexistent"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "counterfactual/difference-making": 37.2,
+   "process/production": 22.5,
+   "primitive": 20.5,
+   "nonexistent": 4.1
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "counterfactual/difference-making",
+  "phil_pct": 37.2
+ },
+ {
+  "id": 48,
+  "topic": "Chinese room",
+  "question": "Chinese room: understands or doesn't understand?",
+  "category": "Philosophy of Mind",
+  "options": [
+   "understands",
+   "doesn't understand"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "understands": 17.8,
+   "doesn't understand": 67.1
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "doesn't understand",
+  "phil_pct": 67.1
+ },
+ {
+  "id": 49,
+  "topic": "Concepts",
+  "question": "Concepts: nativism or empiricism?",
+  "category": "Philosophy of Mind",
+  "options": [
+   "nativism",
+   "empiricism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "nativism": 28.1,
+   "empiricism": 50.3
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "empiricism",
+  "phil_pct": 50.3
+ },
+ {
+  "id": 50,
+  "topic": "Consciousness",
+  "question": "Consciousness: dualism, eliminativism, functionalism, identity theory, or panpsychism?",
+  "category": "Philosophy of Mind",
+  "options": [
+   "dualism",
+   "eliminativism",
+   "functionalism",
+   "identity theory",
+   "panpsychism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "dualism": 22.0,
+   "eliminativism": 4.5,
+   "functionalism": 33.0,
+   "identity theory": 13.3,
+   "panpsychism": 7.5
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "functionalism",
+  "phil_pct": 33.0
+ },
+ {
+  "id": 51,
+  "topic": "Continuum hypothesis",
+  "question": "Continuum hypothesis (does it have a determinate truth-value?): determinate or indeterminate?",
+  "category": "Philosophy of Mathematics",
+  "options": [
+   "determinate",
+   "indeterminate"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "determinate": 37.7,
+   "indeterminate": 28.7
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "determinate",
+  "phil_pct": 37.7
+ },
+ {
+  "id": 52,
+  "topic": "Cosmological fine-tuning",
+  "question": "Cosmological fine-tuning (what explains it?): design, multiverse, brute fact, or no fine-tuning?",
+  "category": "Philosophy of Religion",
+  "options": [
+   "design",
+   "multiverse",
+   "brute fact",
+   "no fine-tuning"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "design": 17.3,
+   "multiverse": 15.1,
+   "brute fact": 32.1,
+   "no fine-tuning": 21.7
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "brute fact",
+  "phil_pct": 32.1
+ },
+ {
+  "id": 53,
+  "topic": "Environmental ethics",
+  "question": "Environmental ethics: anthropocentric or non-anthropocentric?",
+  "category": "Applied Ethics",
+  "options": [
+   "anthropocentric",
+   "non-anthropocentric"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "anthropocentric": 42.2,
+   "non-anthropocentric": 50.7
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "non-anthropocentric",
+  "phil_pct": 50.7
+ },
+ {
+  "id": 54,
+  "topic": "Epistemic justification (detailed)",
+  "question": "Epistemic justification: coherentism, infinitism, nonreliabilist foundationalism, or reliabilism?",
+  "category": "Epistemology",
+  "options": [
+   "coherentism",
+   "infinitism",
+   "nonreliabilist foundationalism",
+   "reliabilism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "coherentism": 23.7,
+   "infinitism": 2.0,
+   "nonreliabilist foundationalism": 25.2,
+   "reliabilism": 33.6
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "reliabilism",
+  "phil_pct": 33.6
+ },
+ {
+  "id": 55,
+  "topic": "Extended mind",
+  "question": "Extended mind: yes or no?",
+  "category": "Philosophy of Mind",
+  "options": [
+   "yes",
+   "no"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "yes": 51.3,
+   "no": 37.1
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "yes",
+  "phil_pct": 51.3
+ },
+ {
+  "id": 56,
+  "topic": "Foundations of mathematics",
+  "question": "Foundations of mathematics: intuitionism/constructivism, formalism, logicism, structuralism, or set-theoretic?",
+  "category": "Philosophy of Mathematics",
+  "options": [
+   "intuitionism/constructivism",
+   "formalism",
+   "logicism",
+   "structuralism",
+   "set-theoretic"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "intuitionism/constructivism": 15.3,
+   "formalism": 6.2,
+   "logicism": 11.8,
+   "structuralism": 21.2,
+   "set-theoretic": 15.3
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "structuralism",
+  "phil_pct": 21.2
+ },
+ {
+  "id": 57,
+  "topic": "Gender categories",
+  "question": "Gender categories: preserve, revise, or eliminate?",
+  "category": "Social Philosophy",
+  "options": [
+   "preserve",
+   "revise",
+   "eliminate"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "preserve": 20.4,
+   "revise": 50.9,
+   "eliminate": 16.3
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "revise",
+  "phil_pct": 50.9
+ },
+ {
+  "id": 58,
+  "topic": "Grounds of intentionality",
+  "question": "Grounds of intentionality: causal/teleological, inferential, interpretational, phenomenal, or primitive?",
+  "category": "Philosophy of Mind",
+  "options": [
+   "causal/teleological",
+   "inferential",
+   "interpretational",
+   "phenomenal",
+   "primitive"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "causal/teleological": 34.7,
+   "inferential": 9.5,
+   "interpretational": 15.1,
+   "phenomenal": 12.6,
+   "primitive": 13.7
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "causal/teleological",
+  "phil_pct": 34.7
+ },
+ {
+  "id": 59,
+  "topic": "Hard problem of consciousness",
+  "question": "Hard problem of consciousness (is there one?): yes or no?",
+  "category": "Philosophy of Mind",
+  "options": [
+   "yes",
+   "no"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "yes": 62.4,
+   "no": 29.8
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "yes",
+  "phil_pct": 62.4
+ },
+ {
+  "id": 60,
+  "topic": "Human genetic engineering",
+  "question": "Human genetic engineering: permissible or impermissible?",
+  "category": "Applied Ethics",
+  "options": [
+   "permissible",
+   "impermissible"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "permissible": 64.2,
+   "impermissible": 19.5
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "permissible",
+  "phil_pct": 64.2
+ },
+ {
+  "id": 61,
+  "topic": "Hume",
+  "question": "Hume (what is his view?): skeptic or naturalist?",
+  "category": "History of Philosophy",
+  "options": [
+   "skeptic",
+   "naturalist"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "skeptic": 36.5,
+   "naturalist": 54.9
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "naturalist",
+  "phil_pct": 54.9
+ },
+ {
+  "id": 62,
+  "topic": "Immortality",
+  "question": "Immortality (would you choose it?): yes or no?",
+  "category": "Value Theory",
+  "options": [
+   "yes",
+   "no"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "yes": 44.9,
+   "no": 41.3
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "yes",
+  "phil_pct": 44.9
+ },
+ {
+  "id": 63,
+  "topic": "Interlevel metaphysics",
+  "question": "Interlevel metaphysics (which is the most useful?): grounding, identity, realization, or supervenience?",
+  "category": "Metaphysics",
+  "options": [
+   "grounding",
+   "identity",
+   "realization",
+   "supervenience"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "grounding": 29.1,
+   "identity": 11.5,
+   "realization": 21.0,
+   "supervenience": 24.7
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "grounding",
+  "phil_pct": 29.1
+ },
+ {
+  "id": 64,
+  "topic": "Kant",
+  "question": "Kant (what is his view?): one world or two worlds?",
+  "category": "History of Philosophy",
+  "options": [
+   "one world",
+   "two worlds"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "one world": 45.4,
+   "two worlds": 34.9
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "one world",
+  "phil_pct": 45.4
+ },
+ {
+  "id": 65,
+  "topic": "Law",
+  "question": "Law: legal positivism or legal non-positivism?",
+  "category": "Philosophy of Law",
+  "options": [
+   "legal positivism",
+   "legal non-positivism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "legal positivism": 39.5,
+   "legal non-positivism": 45.0
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "legal non-positivism",
+  "phil_pct": 45.0
+ },
+ {
+  "id": 66,
+  "topic": "Material composition",
+  "question": "Material composition: nihilism, restrictivism, or universalism?",
+  "category": "Metaphysics",
+  "options": [
+   "nihilism",
+   "restrictivism",
+   "universalism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "nihilism": 8.2,
+   "restrictivism": 35.0,
+   "universalism": 27.4
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "restrictivism",
+  "phil_pct": 35.0
+ },
+ {
+  "id": 67,
+  "topic": "Metaontology",
+  "question": "Metaontology: heavyweight realism, deflationary realism, or anti-realism?",
+  "category": "Metaphysics",
+  "options": [
+   "heavyweight realism",
+   "deflationary realism",
+   "anti-realism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "heavyweight realism": 38.6,
+   "deflationary realism": 28.1,
+   "anti-realism": 11.9
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "heavyweight realism",
+  "phil_pct": 38.6
+ },
+ {
+  "id": 68,
+  "topic": "Method in history of philosophy",
+  "question": "Method in history of philosophy (which do you prefer?): analytic/rational reconstruction or contextual/historicist?",
+  "category": "History of Philosophy",
+  "options": [
+   "analytic/rational reconstruction",
+   "contextual/historicist"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "analytic/rational reconstruction": 60.8,
+   "contextual/historicist": 44.4
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "analytic/rational reconstruction",
+  "phil_pct": 60.8
+ },
+ {
+  "id": 69,
+  "topic": "Method in political philosophy",
+  "question": "Method in political philosophy (which do you prefer?): ideal theory or non-ideal theory?",
+  "category": "Political Philosophy",
+  "options": [
+   "ideal theory",
+   "non-ideal theory"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "ideal theory": 32.4,
+   "non-ideal theory": 58.0
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "non-ideal theory",
+  "phil_pct": 58.0
+ },
+ {
+  "id": 70,
+  "topic": "Mind uploading",
+  "question": "Mind uploading (brain replaced by digital emulation): survival or death?",
+  "category": "Philosophy of Mind",
+  "options": [
+   "survival",
+   "death"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "survival": 27.5,
+   "death": 54.2
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "death",
+  "phil_pct": 54.2
+ },
+ {
+  "id": 71,
+  "topic": "Moral principles",
+  "question": "Moral principles: moral generalism or moral particularism?",
+  "category": "Ethics",
+  "options": [
+   "moral generalism",
+   "moral particularism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "moral generalism": 54.6,
+   "moral particularism": 33.7
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "moral generalism",
+  "phil_pct": 54.6
+ },
+ {
+  "id": 72,
+  "topic": "Morality (metaethics detailed)",
+  "question": "Morality: non-naturalism, naturalist realism, constructivism, expressivism, or error theory?",
+  "category": "Ethics",
+  "options": [
+   "non-naturalism",
+   "naturalist realism",
+   "constructivism",
+   "expressivism",
+   "error theory"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "non-naturalism": 26.6,
+   "naturalist realism": 31.6,
+   "constructivism": 20.8,
+   "expressivism": 10.6,
+   "error theory": 5.3
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "naturalist realism",
+  "phil_pct": 31.6
+ },
+ {
+  "id": 73,
+  "topic": "Normative concepts",
+  "question": "Normative concepts (which is most fundamental?): fit, ought, reason, or value?",
+  "category": "Ethics",
+  "options": [
+   "fit",
+   "ought",
+   "reason",
+   "value"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "fit": 7.3,
+   "ought": 14.2,
+   "reason": 25.4,
+   "value": 37.4
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "value",
+  "phil_pct": 37.4
+ },
+ {
+  "id": 74,
+  "topic": "Other minds",
+  "question": "Other minds (for which groups are some members conscious?): adult humans, cats, fish, flies, worms, plants, particles, newborn babies, current AI systems, future AI systems?",
+  "category": "Philosophy of Mind",
+  "options": [
+   "adult humans",
+   "cats",
+   "fish",
+   "flies",
+   "worms",
+   "plants",
+   "particles",
+   "newborn babies",
+   "current AI systems",
+   "future AI systems"
+  ],
+  "is_multi": true,
+  "phil_dist": {
+   "adult humans": 99.8,
+   "cats": 96.1,
+   "fish": 85.3,
+   "flies": 61.6,
+   "worms": 53.4,
+   "plants": 20.3,
+   "particles": 10.9,
+   "newborn babies": 95.1,
+   "current AI systems": 17.6,
+   "future AI systems": 73.2
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "adult humans",
+  "phil_pct": 99.8
+ },
+ {
+  "id": 75,
+  "topic": "Ought implies can",
+  "question": "Ought implies can: yes or no?",
+  "category": "Ethics",
+  "options": [
+   "yes",
+   "no"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "yes": 62.9,
+   "no": 28.3
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "yes",
+  "phil_pct": 62.9
+ },
+ {
+  "id": 76,
+  "topic": "Philosophical knowledge",
+  "question": "Philosophical knowledge (how much is there?): none, a little, or a lot?",
+  "category": "Metaphilosophy",
+  "options": [
+   "none",
+   "a little",
+   "a lot"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "none": 3.6,
+   "a little": 32.5,
+   "a lot": 56.2
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "a lot",
+  "phil_pct": 56.2
+ },
+ {
+  "id": 77,
+  "topic": "Plato",
+  "question": "Plato (what is his view?): knowledge only of forms, or knowledge also of concrete things?",
+  "category": "History of Philosophy",
+  "options": [
+   "knowledge only of forms",
+   "knowledge also of concrete things"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "knowledge only of forms": 52.8,
+   "knowledge also of concrete things": 28.2
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "knowledge only of forms",
+  "phil_pct": 52.8
+ },
+ {
+  "id": 78,
+  "topic": "Politics",
+  "question": "Politics: capitalism or socialism?",
+  "category": "Political Philosophy",
+  "options": [
+   "capitalism",
+   "socialism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "capitalism": 29.5,
+   "socialism": 53.0
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "socialism",
+  "phil_pct": 53.0
+ },
+ {
+  "id": 79,
+  "topic": "Possible worlds",
+  "question": "Possible worlds: abstract, concrete, or nonexistent?",
+  "category": "Metaphysics",
+  "options": [
+   "abstract",
+   "concrete",
+   "nonexistent"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "abstract": 54.8,
+   "concrete": 4.6,
+   "nonexistent": 30.0
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "abstract",
+  "phil_pct": 54.8
+ },
+ {
+  "id": 80,
+  "topic": "Principle of sufficient reason",
+  "question": "Principle of sufficient reason: true or false?",
+  "category": "Metaphysics",
+  "options": [
+   "true",
+   "false"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "true": 35.9,
+   "false": 45.7
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "false",
+  "phil_pct": 45.7
+ },
+ {
+  "id": 81,
+  "topic": "Properties",
+  "question": "Properties: classes, immanent universals, transcendent universals, tropes, or nonexistent?",
+  "category": "Metaphysics",
+  "options": [
+   "classes",
+   "immanent universals",
+   "transcendent universals",
+   "tropes",
+   "nonexistent"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "classes": 11.5,
+   "immanent universals": 20.6,
+   "transcendent universals": 19.8,
+   "tropes": 15.3,
+   "nonexistent": 8.1
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "immanent universals",
+  "phil_pct": 20.6
+ },
+ {
+  "id": 82,
+  "topic": "Practical reason",
+  "question": "Practical reason: Aristotelian, Humean, or Kantian?",
+  "category": "Philosophy of Action",
+  "options": [
+   "Aristotelian",
+   "Humean",
+   "Kantian"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "Aristotelian": 38.7,
+   "Humean": 30.6,
+   "Kantian": 18.9
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "Aristotelian",
+  "phil_pct": 38.7
+ },
+ {
+  "id": 83,
+  "topic": "Propositional attitudes",
+  "question": "Propositional attitudes: dispositional, phenomenal, representational, or nonexistent?",
+  "category": "Philosophy of Mind",
+  "options": [
+   "dispositional",
+   "phenomenal",
+   "representational",
+   "nonexistent"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "dispositional": 31.5,
+   "phenomenal": 6.9,
+   "representational": 46.5,
+   "nonexistent": 3.5
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "representational",
+  "phil_pct": 46.5
+ },
+ {
+  "id": 84,
+  "topic": "Propositions",
+  "question": "Propositions: sets, structured entities, simple entities, acts, or nonexistent?",
+  "category": "Philosophy of Language",
+  "options": [
+   "sets",
+   "structured entities",
+   "simple entities",
+   "acts",
+   "nonexistent"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "sets": 8.4,
+   "structured entities": 38.3,
+   "simple entities": 6.9,
+   "acts": 8.1,
+   "nonexistent": 15.4
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "structured entities",
+  "phil_pct": 38.3
+ },
+ {
+  "id": 85,
+  "topic": "Quantum mechanics",
+  "question": "Quantum mechanics: collapse, hidden-variables, many-worlds, or epistemic?",
+  "category": "Philosophy of Science",
+  "options": [
+   "collapse",
+   "hidden-variables",
+   "many-worlds",
+   "epistemic"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "collapse": 17.1,
+   "hidden-variables": 21.9,
+   "many-worlds": 19.4,
+   "epistemic": 12.8
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "hidden-variables",
+  "phil_pct": 21.9
+ },
+ {
+  "id": 86,
+  "topic": "Race categories",
+  "question": "Race categories: preserve, revise, or eliminate?",
+  "category": "Social Philosophy",
+  "options": [
+   "preserve",
+   "revise",
+   "eliminate"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "preserve": 8.2,
+   "revise": 32.3,
+   "eliminate": 40.4
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "eliminate",
+  "phil_pct": 40.4
+ },
+ {
+  "id": 87,
+  "topic": "Response to external-world skepticism",
+  "question": "Response to external-world skepticism (which is strongest?): abductive, contextualist, dogmatist, epistemic externalist, semantic externalist, or pragmatic?",
+  "category": "Epistemology",
+  "options": [
+   "abductive",
+   "contextualist",
+   "dogmatist",
+   "epistemic externalist",
+   "semantic externalist",
+   "pragmatic"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "abductive": 22.1,
+   "contextualist": 10.7,
+   "dogmatist": 13.4,
+   "epistemic externalist": 18.9,
+   "semantic externalist": 8.4,
+   "pragmatic": 22.8
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "pragmatic",
+  "phil_pct": 22.8
+ },
+ {
+  "id": 88,
+  "topic": "Rational disagreement",
+  "question": "Rational disagreement (can two people with the same evidence rationally disagree?): uniqueness or permissiveness?",
+  "category": "Epistemology",
+  "options": [
+   "uniqueness",
+   "permissiveness"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "uniqueness": 19.4,
+   "permissiveness": 70.2
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "permissiveness",
+  "phil_pct": 70.2
+ },
+ {
+  "id": 89,
+  "topic": "Semantic content",
+  "question": "Semantic content (which expressions are context-dependent?): minimalism (no more than a few), moderate contextualism (intermediate), or radical contextualism (most or all)?",
+  "category": "Philosophy of Language",
+  "options": [
+   "minimalism",
+   "moderate contextualism",
+   "radical contextualism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "minimalism": 9.4,
+   "moderate contextualism": 52.5,
+   "radical contextualism": 25.5
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "moderate contextualism",
+  "phil_pct": 52.5
+ },
+ {
+  "id": 90,
+  "topic": "Sleeping beauty",
+  "question": "Sleeping beauty (woken once if heads, woken twice if tails, credence in heads on waking?): one-third or one-half?",
+  "category": "Epistemology",
+  "options": [
+   "one-third",
+   "one-half"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "one-third": 27.7,
+   "one-half": 18.6
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "one-third",
+  "phil_pct": 27.7
+ },
+ {
+  "id": 91,
+  "topic": "Spacetime",
+  "question": "Spacetime: relationism or substantivalism?",
+  "category": "Philosophy of Science",
+  "options": [
+   "relationism",
+   "substantivalism"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "relationism": 45.4,
+   "substantivalism": 27.5
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "relationism",
+  "phil_pct": 45.4
+ },
+ {
+  "id": 92,
+  "topic": "Statue and lump",
+  "question": "Statue and lump: one thing or two things?",
+  "category": "Metaphysics",
+  "options": [
+   "one thing",
+   "two things"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "one thing": 30.1,
+   "two things": 41.8
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "two things",
+  "phil_pct": 41.8
+ },
+ {
+  "id": 93,
+  "topic": "Temporal ontology",
+  "question": "Temporal ontology: presentism, eternalism, or growing block?",
+  "category": "Metaphysics",
+  "options": [
+   "presentism",
+   "eternalism",
+   "growing block"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "presentism": 18.4,
+   "eternalism": 39.9,
+   "growing block": 17.0
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "eternalism",
+  "phil_pct": 39.9
+ },
+ {
+  "id": 94,
+  "topic": "Theory of reference",
+  "question": "Theory of reference: causal, descriptive, or deflationary?",
+  "category": "Philosophy of Language",
+  "options": [
+   "causal",
+   "descriptive",
+   "deflationary"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "causal": 46.3,
+   "descriptive": 22.1,
+   "deflationary": 15.1
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "causal",
+  "phil_pct": 46.3
+ },
+ {
+  "id": 95,
+  "topic": "Time travel",
+  "question": "Time travel: metaphysically possible or metaphysically impossible?",
+  "category": "Metaphysics",
+  "options": [
+   "metaphysically possible",
+   "metaphysically impossible"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "metaphysically possible": 42.3,
+   "metaphysically impossible": 41.0
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "metaphysically possible",
+  "phil_pct": 42.3
+ },
+ {
+  "id": 96,
+  "topic": "True contradictions",
+  "question": "True contradictions: impossible, possible but non-actual, or actual?",
+  "category": "Logic",
+  "options": [
+   "impossible",
+   "possible but non-actual",
+   "actual"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "impossible": 71.4,
+   "possible but non-actual": 4.8,
+   "actual": 12.4
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "impossible",
+  "phil_pct": 71.4
+ },
+ {
+  "id": 97,
+  "topic": "Units of natural selection",
+  "question": "Units of natural selection: genes or organisms?",
+  "category": "Philosophy of Science",
+  "options": [
+   "genes",
+   "organisms"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "genes": 43.5,
+   "organisms": 43.1
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "genes",
+  "phil_pct": 43.5
+ },
+ {
+  "id": 98,
+  "topic": "Values in science",
+  "question": "Values in science (is ideal scientific reasoning necessarily sensitive or insensitive to non-epistemic values?): necessarily value-free, necessarily value-laden, or can be either?",
+  "category": "Philosophy of Science",
+  "options": [
+   "necessarily value-free",
+   "necessarily value-laden",
+   "can be either"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "necessarily value-free": 17.7,
+   "necessarily value-laden": 44.0,
+   "can be either": 31.1
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "necessarily value-laden",
+  "phil_pct": 44.0
+ },
+ {
+  "id": 99,
+  "topic": "Well-being",
+  "question": "Well-being: hedonism, desire satisfaction, or objective list?",
+  "category": "Value Theory",
+  "options": [
+   "hedonism",
+   "desire satisfaction",
+   "objective list"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "hedonism": 12.7,
+   "desire satisfaction": 18.6,
+   "objective list": 53.2
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "objective list",
+  "phil_pct": 53.2
+ },
+ {
+  "id": 100,
+  "topic": "Wittgenstein",
+  "question": "Wittgenstein (which do you prefer?): early or late?",
+  "category": "History of Philosophy",
+  "options": [
+   "early",
+   "late"
+  ],
+  "is_multi": false,
+  "phil_dist": {
+   "early": 24.6,
+   "late": 57.5
+  },
+  "phil_dist_2009": null,
+  "phil_plurality": "late",
+  "phil_pct": 57.5
+ }
+]

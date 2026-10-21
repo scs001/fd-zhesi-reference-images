@@ -1,0 +1,14 @@
+{
+  "artifact": "philbench_questions.json",
+  "what": "QUESTIONS array extracted from PhilBench dashboard index.html: 100 questions of the 2020 PhilPapers Survey with per-option philosopher distributions (phil_dist = 2020, phil_dist_2009 = 2009 carried-over subset, 30 questions)",
+  "source_repo": "https://github.com/lordscottish12/PhilBench",
+  "source_files": [
+    "https://github.com/lordscottish12/PhilBench/blob/main/index.html",
+    "https://github.com/lordscottish12/PhilBench/blob/main/README.md"
+  ],
+  "fetched_via": "https://cdn.jsdelivr.net/gh/lordscottish12/PhilBench@main/index.html (jsDelivr CDN mirror; raw.githubusercontent.com was network-degraded ~10KB/s)",
+  "fetched_at": "2026-10-20T23:37+08:00",
+  "extracted_by": "scripts/probe_survey.py (bracket-matched JSON array following the `QUESTIONS` identifier)",
+  "cross_validation_role": "Route 3 secondary source; NOT a wayback snapshot. Cites the official 2020 survey site https://survey2020.philpeople.org/ (100 questions, 1,785 respondents)",
+  "notes": "phil_dist_2009 values match the final published 2009 paper tabulation (Bourget & Chalmers 2013/2014) rather than the preliminary-wave results.pl tabulation (N=931) captured by Wayback; expect ~0.5-1pp deltas between the two."
+}

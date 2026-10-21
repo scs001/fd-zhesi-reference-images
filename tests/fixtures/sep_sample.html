@@ -1,0 +1,784 @@
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="ie6 ie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 ie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 ie"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9 ie"> <![endif]-->
+<!--[if !IE]> --> <html lang="en"> <!-- <![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Search (Stanford Encyclopedia of Philosophy)</title>
+
+<!-- NOTE: Import webfonts using this link: -->
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,200' rel='stylesheet' type='text/css' />
+
+<link rel="stylesheet" type="text/css" href="https://plato.stanford.edu/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="https://plato.stanford.edu/css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" type="text/css" href="https://plato.stanford.edu/css/font-awesome.min.css" />
+<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="https://plato.stanford.edu/css/font-awesome-ie7.min.css"> <![endif]-->
+<link rel="stylesheet" type="text/css" href="https://plato.stanford.edu/css/style.css" />
+<link rel="stylesheet" type="text/css" href="https://plato.stanford.edu/css/entry.css" />
+<!--[if IE]> <link rel="stylesheet" type="text/css" href="https://plato.stanford.edu/css/ie.css" /> <![endif]-->
+<script type="text/javascript" src="https://plato.stanford.edu/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="https://plato.stanford.edu/js/bootstrap.min.js"></script>
+
+<!-- SEP custom script -->
+<script type="text/javascript" src="https://plato.stanford.edu/js/sep.js"></script>
+</head>
+
+ <!-- NOTE: The nojs class is removed from the page if javascript is enabled. Otherwise, it drives the display when there is no javascript. -->
+<body class="nojs homepage">
+
+  <div id="container">
+
+  <!--  BEGINING OF THE CONTAINER  -->
+
+
+
+
+
+
+
+    <div id="header-wrapper">
+      <div id="header">
+
+        <div id="branding">
+          <div id="site-logo"><img src="https://plato.stanford.edu/symbols/sep-man-red.png" alt="" /></div>
+          <div id="site-title"><a href="../index.html">Stanford Encyclopedia of Philosophy</a></div>
+        </div>
+        
+        <div id="navigation">
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="container">
+                <button class="btn btn-navbar collapsed" data-target=".nav-collapse" data-toggle="collapse" type="button">
+                  <i class="icon-reorder"></i> Menu
+                </button>
+                <div class="nav-collapse in collapse">
+                  <ul class="nav">
+                    <li class="dropdown open"><a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-book"></i> Browse</a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+                        <li><a href="../contents.html">Table of Contents</a></li>
+                        <li><a href="../new.html">What's New</a></li>
+                        <li><a href="http://plato.stanford.edu/cgi-bin/encyclopedia/random">Random Entry</a></li>
+                        <li><a href="../published.html">Chronological</a></li>
+                        <li><a href="../archives/">Archives</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown open"><a id="drop2" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-info-sign"></i> About</a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
+                        <li><a href="../info.html">Editorial Information</a></li>
+                        <li><a href="../about.html">About the SEP</a></li>
+                        <li><a href="../board.html">Editorial Board</a></li>
+                        <li><a href="../cite.html">How to Cite the SEP</a></li>
+                        <li><a href="../special-characters.html">Special Characters</a></li>
+                        <li><a href="../tools/">Advanced Tools</a></li>
+                        <li><a href="../contact.html">Contact</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown open"><a id="drop3" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><i class="icon-leaf"></i> Support SEP</a>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="drop3">
+                        <li><a href="../support/">Support the SEP</a></li>
+                        <li><a href="../support/friends.html">PDFs for SEP Friends</a></li>
+                        <li><a href="../support/donate.html">Make a Donation</a></li>
+                        <li><a href="../support/sepia.html">SEPIA for Libraries</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- End navigation -->
+
+      </div> <!-- End header -->
+    </div><!-- End header wrapper -->
+
+
+
+
+
+
+
+
+
+
+<!--
+http://localhost:8983/solr/current/select?wt=json&debugQuery=true&hl=true&hl.tag.pre=<b>&hl.tag.post=</b>&hl.snippets=3&hl.fields=content+title&defType=edismax&tie=0.1&hl.useFastVectorHighlighter=true&hl.boundaryScanner=breakIterator&hl.bs.type=WORD&hl.bs.chars=.,!?|	
+&hl.bs.maxScan=250&q=compatibilism&start=0&rows=10&qf=content+title^10&bf=if(field(is_supplement),10,1000)
+-->
+
+
+
+    <div id="content"><!--DO NOT MODIFY THIS LINE AND ABOVE-->
+
+<h1>
+
+Search
+
+</h1>
+
+<div class="searchpage">
+  <div id="search" class="search-suggest">
+    <form id="search-form" method="get" action="https://plato.stanford.edu/search/search">
+
+      <input class="typeahead" type="search" name="query" value="compatibilism">
+
+
+
+      <div class="search-btn-wrapper">
+    <button class="btn search-btn" type="submit" title="Search" aria-label="search"><i class="icon-search icon-2x"></i></button>
+      </div>
+    </form>
+  </div>
+<div class="search_results">
+
+<div class="search_total">1&ndash;10 of 75 documents found</div><!-- end search_total -->
+
+
+<div class="result_listing">
+<div class="result_title"><a class=l href="https://plato.stanford.edu/search/r?entry=/entries/compatibilism/&page=1&total_hits=75&pagesize=10&archive=None&rank=0&query=compatibilism"><b>Compatibilism</b>
+
+</a>
+</div><!-- end result_title -->
+<div class="result_snippet">
+Replies
+
+
+2. Classical <b>Compatibilism</b>
+
+2.1 Freedom According to Classical <b>Compatibilism</b>
+2.2 The Classical Compatibilist<b>...</b>Reactive Attitudes
+
+
+4. Contemporary <b>Compatibilism</b>
+
+4.1 <b>Compatibilism</b> about the Freedom to Do Otherwise
+<b>...</b>.2 Hierarchical <b>Compatibilism</b>
+4.3 The Reason View
+4.4 Reasons-Responsive <b>Compatibilism</b>
+4.5 Strawsonian<b>...</b>
+<!--
+
+20.331532 = (MATCH) sum of:
+  8.337768 = (MATCH) max plus 0.1 times others of:
+    8.336207 = (MATCH) weight(title:compatibilism^10.0 in 1552) [DefaultSimilarity], result of:
+      8.336207 = score(doc=1552,freq=1.0), product of:
+        0.99991244 = queryWeight, product of:
+          10.0 = boost
+          8.336937 = idf(docFreq=2, maxDocs=4608)
+          0.011993763 = queryNorm
+        8.336937 = fieldWeight in 1552, product of:
+          1.0 = tf(freq=1.0), with freq of:
+            1.0 = termFreq=1.0
+          8.336937 = idf(docFreq=2, maxDocs=4608)
+          1.0 = fieldNorm(doc=1552)
+    0.015605467 = (MATCH) weight(content:compatibilism in 1552) [DefaultSimilarity], result of:
+      0.015605467 = score(doc=1552,freq=59.0), product of:
+        0.055848062 = queryWeight, product of:
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.011993763 = queryNorm
+        0.2794272 = fieldWeight in 1552, product of:
+          7.6811457 = tf(freq=59.0), with freq of:
+            59.0 = termFreq=59.0
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.0078125 = fieldNorm(doc=1552)
+  11.993763 = (MATCH) FunctionQuery(if(bool(is_supplement),const(10),const(1000))), product of:
+    1000.0 = if(bool(is_supplement)=false,const(10),const(1000))
+    1.0 = boost
+    0.011993763 = queryNorm
+
+-->
+</div><!-- end result_snippet -->
+
+<div class="result_author">Michael McKenna and D. Justin Coates
+</div>
+
+<!-- end result_author -->
+
+
+<div class="result_url">
+<a href="https://plato.stanford.edu/search/r?entry=/entries/compatibilism/&page=1&total_hits=75&pagesize=10&archive=None&rank=0&query=compatibilism">https://plato.stanford.edu/entries/compatibilism/</a>
+</div><!-- end result_url -->
+</div><!-- end result_listing -->
+
+<div class="result_listing">
+<div class="result_title"><a class=l href="https://plato.stanford.edu/search/r?entry=/entries/incompatibilism-arguments/&page=1&total_hits=75&pagesize=10&archive=None&rank=1&query=compatibilism">Arguments for Incompatibilism
+
+</a>
+</div><!-- end result_title -->
+<div class="result_snippet">
+and many contemporary theorists understand
+‘<b>compatibilism</b>’ and ‘incompatibilism’ as
+claims about moral<b>...</b>apparatus, we could define incompatibilism and
+<b>compatibilism</b> in the following way: incompatibilism is the<b>...</b> will thesis is false.) And we could define <b>compatibilism</b>
+as the denial of incompatibilism; that is, as<b>...</b>
+<!--
+
+12.002777 = (MATCH) sum of:
+  0.0090145925 = (MATCH) max plus 0.1 times others of:
+    0.0090145925 = (MATCH) weight(content:compatibilism in 1390) [DefaultSimilarity], result of:
+      0.0090145925 = score(doc=1390,freq=35.0), product of:
+        0.055848062 = queryWeight, product of:
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.011993763 = queryNorm
+        0.1614128 = fieldWeight in 1390, product of:
+          5.91608 = tf(freq=35.0), with freq of:
+            35.0 = termFreq=35.0
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.005859375 = fieldNorm(doc=1390)
+  11.993763 = (MATCH) FunctionQuery(if(bool(is_supplement),const(10),const(1000))), product of:
+    1000.0 = if(bool(is_supplement)=false,const(10),const(1000))
+    1.0 = boost
+    0.011993763 = queryNorm
+
+-->
+</div><!-- end result_snippet -->
+
+<div class="result_author">Kadri Vihvelin
+</div>
+
+<!-- end result_author -->
+
+
+<div class="result_url">
+<a href="https://plato.stanford.edu/search/r?entry=/entries/incompatibilism-arguments/&page=1&total_hits=75&pagesize=10&archive=None&rank=1&query=compatibilism">https://plato.stanford.edu/entries/incompatibilism-arguments/</a>
+</div><!-- end result_url -->
+</div><!-- end result_listing -->
+
+<div class="result_listing">
+<div class="result_title"><a class=l href="https://plato.stanford.edu/search/r?entry=/entries/abilities/&page=1&total_hits=75&pagesize=10&archive=None&rank=2&query=compatibilism">Abilities
+
+</a>
+</div><!-- end result_title -->
+<div class="result_snippet">
+figured most prominently in debates
+over <b>compatibilism</b>. ‘<b>Compatibilism</b>’ is used in many ways,
+but let us understand<b>...</b>what we might call <b>compatibilism</b> about freedom
+and determinism. Insofar as <b>compatibilism</b>, so understood, <b>...</b>satisfactory conception of <b>compatibilism</b>. Let us
+call this modest <b>compatibilism</b>. This distinction is not<b>...</b>
+<!--
+
+12.001632 = (MATCH) sum of:
+  0.0078685805 = (MATCH) max plus 0.1 times others of:
+    0.0078685805 = (MATCH) weight(content:compatibilism in 15) [DefaultSimilarity], result of:
+      0.0078685805 = score(doc=15,freq=15.0), product of:
+        0.055848062 = queryWeight, product of:
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.011993763 = queryNorm
+        0.14089264 = fieldWeight in 15, product of:
+          3.8729835 = tf(freq=15.0), with freq of:
+            15.0 = termFreq=15.0
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.0078125 = fieldNorm(doc=15)
+  11.993763 = (MATCH) FunctionQuery(if(bool(is_supplement),const(10),const(1000))), product of:
+    1000.0 = if(bool(is_supplement)=false,const(10),const(1000))
+    1.0 = boost
+    0.011993763 = queryNorm
+
+-->
+</div><!-- end result_snippet -->
+
+<div class="result_author">John Maier and Sophie Kikkert
+</div>
+
+<!-- end result_author -->
+
+
+<div class="result_url">
+<a href="https://plato.stanford.edu/search/r?entry=/entries/abilities/&page=1&total_hits=75&pagesize=10&archive=None&rank=2&query=compatibilism">https://plato.stanford.edu/entries/abilities/</a>
+</div><!-- end result_url -->
+</div><!-- end result_listing -->
+
+<div class="result_listing">
+<div class="result_title"><a class=l href="https://plato.stanford.edu/search/r?entry=/entries/hume-freewill/&page=1&total_hits=75&pagesize=10&archive=None&rank=3&query=compatibilism">Hume on Free Will
+
+</a>
+</div><!-- end result_title -->
+<div class="result_snippet">
+ principal and founding figure of classical <b>compatibilism</b>, as located in the empiricist philosophical <b>...</b>73–4 – Hume’s emphasis), Hume’s own form of <b>compatibilism</b> is vulnerable to the same objection that he <b>...</b>arguments by leading representatives of classical <b>compatibilism</b> who came after Hume (viz. Mill, Russell, Schlick<b>...</b>
+<!--
+
+12.001365 = (MATCH) sum of:
+  0.0076017715 = (MATCH) max plus 0.1 times others of:
+    0.0076017715 = (MATCH) weight(content:compatibilism in 1206) [DefaultSimilarity], result of:
+      0.0076017715 = score(doc=1206,freq=14.0), product of:
+        0.055848062 = queryWeight, product of:
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.011993763 = queryNorm
+        0.13611522 = fieldWeight in 1206, product of:
+          3.7416575 = tf(freq=14.0), with freq of:
+            14.0 = termFreq=14.0
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.0078125 = fieldNorm(doc=1206)
+  11.993763 = (MATCH) FunctionQuery(if(bool(is_supplement),const(10),const(1000))), product of:
+    1000.0 = if(bool(is_supplement)=false,const(10),const(1000))
+    1.0 = boost
+    0.011993763 = queryNorm
+
+-->
+</div><!-- end result_snippet -->
+
+<div class="result_author">Paul Russell
+</div>
+
+<!-- end result_author -->
+
+
+<div class="result_url">
+<a href="https://plato.stanford.edu/search/r?entry=/entries/hume-freewill/&page=1&total_hits=75&pagesize=10&archive=None&rank=3&query=compatibilism">https://plato.stanford.edu/entries/hume-freewill/</a>
+</div><!-- end result_url -->
+</div><!-- end result_listing -->
+
+<div class="result_listing">
+<div class="result_title"><a class=l href="https://plato.stanford.edu/search/r?entry=/entries/doxastic-voluntarism/&page=1&total_hits=75&pagesize=10&archive=None&rank=4&query=compatibilism">Doxastic Voluntarism
+
+</a>
+</div><!-- end result_title -->
+<div class="result_snippet">
+does Weatherson 2008).
+
+4.2 Doxastic <b>Compatibilism</b>
+
+
+<b>Compatibilism</b> is the thesis that free will is compatible<b>...</b> leading proponent of
+doxastic <b>compatibilism</b>, argues that <b>compatibilism</b> entails that (most
+of) our actions<b>...</b> appeal
+to epistemic permissivism, doxastic <b>compatibilism</b>, skepticism, one-off
+considerations, and non-standard<b>...</b>
+<!--
+
+12.001093 = (MATCH) sum of:
+  0.0073296516 = (MATCH) max plus 0.1 times others of:
+    0.0073296516 = (MATCH) weight(content:compatibilism in 2354) [DefaultSimilarity], result of:
+      0.0073296516 = score(doc=2354,freq=17.0), product of:
+        0.055848062 = queryWeight, product of:
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.011993763 = queryNorm
+        0.13124272 = fieldWeight in 2354, product of:
+          4.1231055 = tf(freq=17.0), with freq of:
+            17.0 = termFreq=17.0
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.0068359375 = fieldNorm(doc=2354)
+  11.993763 = (MATCH) FunctionQuery(if(bool(is_supplement),const(10),const(1000))), product of:
+    1000.0 = if(bool(is_supplement)=false,const(10),const(1000))
+    1.0 = boost
+    0.011993763 = queryNorm
+
+-->
+</div><!-- end result_snippet -->
+
+<div class="result_author">Mark Boespflug and Elizabeth Jackson
+</div>
+
+<!-- end result_author -->
+
+
+<div class="result_url">
+<a href="https://plato.stanford.edu/search/r?entry=/entries/doxastic-voluntarism/&page=1&total_hits=75&pagesize=10&archive=None&rank=4&query=compatibilism">https://plato.stanford.edu/entries/doxastic-voluntarism/</a>
+</div><!-- end result_url -->
+</div><!-- end result_listing -->
+
+<div class="result_listing">
+<div class="result_title"><a class=l href="https://plato.stanford.edu/search/r?entry=/entries/skepticism-moral-responsibility/&page=1&total_hits=75&pagesize=10&archive=None&rank=5&query=compatibilism">Skepticism About Moral Responsibility
+
+</a>
+</div><!-- end result_title -->
+<div class="result_snippet">
+ this way—namely John
+Martin Fischer’s
+semi-<b>compatibilism</b> (Fischer & Ravizza 1998; Fischer 2007)
+and Bruce<b>...</b> Bruce Waller’s reverse semi-<b>compatibilism</b> (2015)—even
+these philosophers nevertheless acknowledge that<b>...</b>are part of a
+fully deterministic world and <b>compatibilism</b> amounts to a
+“quagmire of evasion” (James 1884<b>...</b>
+<!--
+
+12.000746 = (MATCH) sum of:
+  0.006982673 = (MATCH) max plus 0.1 times others of:
+    0.006982673 = (MATCH) weight(content:compatibilism in 180) [DefaultSimilarity], result of:
+      0.006982673 = score(doc=180,freq=21.0), product of:
+        0.055848062 = queryWeight, product of:
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.011993763 = queryNorm
+        0.12502982 = fieldWeight in 180, product of:
+          4.582576 = tf(freq=21.0), with freq of:
+            21.0 = termFreq=21.0
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.005859375 = fieldNorm(doc=180)
+  11.993763 = (MATCH) FunctionQuery(if(bool(is_supplement),const(10),const(1000))), product of:
+    1000.0 = if(bool(is_supplement)=false,const(10),const(1000))
+    1.0 = boost
+    0.011993763 = queryNorm
+
+-->
+</div><!-- end result_snippet -->
+
+<div class="result_author">Gregg Caruso
+</div>
+
+<!-- end result_author -->
+
+
+<div class="result_url">
+<a href="https://plato.stanford.edu/search/r?entry=/entries/skepticism-moral-responsibility/&page=1&total_hits=75&pagesize=10&archive=None&rank=5&query=compatibilism">https://plato.stanford.edu/entries/skepticism-moral-responsibility/</a>
+</div><!-- end result_url -->
+</div><!-- end result_listing -->
+
+<div class="result_listing">
+<div class="result_title"><a class=l href="https://plato.stanford.edu/search/r?entry=/entries/alternative-possibilities/&page=1&total_hits=75&pagesize=10&archive=None&rank=6&query=compatibilism">Moral Responsibility and the Principle of Alternative Possibilities
+
+</a>
+</div><!-- end result_title -->
+<div class="result_snippet">
+Without PAP in the way,
+<b>compatibilism</b> receives new energy (see entry on
+ <b>compatibilism</b> §4).
+ 
+
+But this route<b>...</b>Dilemma
+      
+   
+5. Beyond PAP
+   
+   5.1 <b>Compatibilism</b> Re-energized?
+   5.2 Incompatibilism without<b>...</b>be equated with dispositions (see entry on
+ <b>compatibilism</b> §4.1.5).
+ 
+
+One question this defense raises<b>...</b>
+<!--
+
+12.000648 = (MATCH) sum of:
+  0.0068850084 = (MATCH) max plus 0.1 times others of:
+    0.0068850084 = (MATCH) weight(content:compatibilism in 29) [DefaultSimilarity], result of:
+      0.0068850084 = score(doc=29,freq=15.0), product of:
+        0.055848062 = queryWeight, product of:
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.011993763 = queryNorm
+        0.12328106 = fieldWeight in 29, product of:
+          3.8729835 = tf(freq=15.0), with freq of:
+            15.0 = termFreq=15.0
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.0068359375 = fieldNorm(doc=29)
+  11.993763 = (MATCH) FunctionQuery(if(bool(is_supplement),const(10),const(1000))), product of:
+    1000.0 = if(bool(is_supplement)=false,const(10),const(1000))
+    1.0 = boost
+    0.011993763 = queryNorm
+
+-->
+</div><!-- end result_snippet -->
+
+<div class="result_author">David Robb
+</div>
+
+<!-- end result_author -->
+
+
+<div class="result_url">
+<a href="https://plato.stanford.edu/search/r?entry=/entries/alternative-possibilities/&page=1&total_hits=75&pagesize=10&archive=None&rank=6&query=compatibilism">https://plato.stanford.edu/entries/alternative-possibilities/</a>
+</div><!-- end result_url -->
+</div><!-- end result_listing -->
+
+<div class="result_listing">
+<div class="result_title"><a class=l href="https://plato.stanford.edu/search/r?entry=/entries/freewill/&page=1&total_hits=75&pagesize=10&archive=None&rank=7&query=compatibilism">Free Will
+
+</a>
+</div><!-- end result_title -->
+<div class="result_snippet">
+argument for the falsity of <b>compatibilism</b> is irrelevant does not show
+that <b>compatibilism</b> is true. Indeed, many<b>...</b>first consideration is
+clearly consistent with <b>compatibilism</b>. The second at best points to a
+kind of contingency<b>...</b>responsible for their actions. The third is
+that <b>compatibilism</b>—the thesis that free will is compatible with<b>...</b>
+<!--
+
+12.000404 = (MATCH) sum of:
+  0.0066418466 = (MATCH) max plus 0.1 times others of:
+    0.0066418466 = (MATCH) weight(content:compatibilism in 398) [DefaultSimilarity], result of:
+      0.0066418466 = score(doc=398,freq=19.0), product of:
+        0.055848062 = queryWeight, product of:
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.011993763 = queryNorm
+        0.11892708 = fieldWeight in 398, product of:
+          4.358899 = tf(freq=19.0), with freq of:
+            19.0 = termFreq=19.0
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.005859375 = fieldNorm(doc=398)
+  11.993763 = (MATCH) FunctionQuery(if(bool(is_supplement),const(10),const(1000))), product of:
+    1000.0 = if(bool(is_supplement)=false,const(10),const(1000))
+    1.0 = boost
+    0.011993763 = queryNorm
+
+-->
+</div><!-- end result_snippet -->
+
+<div class="result_author">Timothy O’Connor and Christopher Franklin
+</div>
+
+<!-- end result_author -->
+
+
+<div class="result_url">
+<a href="https://plato.stanford.edu/search/r?entry=/entries/freewill/&page=1&total_hits=75&pagesize=10&archive=None&rank=7&query=compatibilism">https://plato.stanford.edu/entries/freewill/</a>
+</div><!-- end result_url -->
+</div><!-- end result_listing -->
+
+<div class="result_listing">
+<div class="result_title"><a class=l href="https://plato.stanford.edu/search/r?entry=/entries/prophecy/&page=1&total_hits=75&pagesize=10&archive=None&rank=8&query=compatibilism">Prophecy
+
+</a>
+</div><!-- end result_title -->
+<div class="result_snippet">
+more on this connection, see the entries
+on
+ <b>compatibilism</b>,
+ free will, and
+ causal determinism.)
+ But <b>...</b>or intending
+otherwise (see the entries on
+ <b>compatibilism</b>
+ and
+ free will).
+ Still others believe that<b>...</b>Thomas |
+ Christian theology, philosophy and |
+ <b>compatibilism</b> |
+ cosmological argument |
+ determinism: causal<b>...</b>
+<!--
+
+11.999921 = (MATCH) sum of:
+  0.0061581386 = (MATCH) max plus 0.1 times others of:
+    0.0061581386 = (MATCH) weight(content:compatibilism in 2297) [DefaultSimilarity], result of:
+      0.0061581386 = score(doc=2297,freq=3.0), product of:
+        0.055848062 = queryWeight, product of:
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.011993763 = queryNorm
+        0.11026593 = fieldWeight in 2297, product of:
+          1.7320508 = tf(freq=3.0), with freq of:
+            3.0 = termFreq=3.0
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.013671875 = fieldNorm(doc=2297)
+  11.993763 = (MATCH) FunctionQuery(if(bool(is_supplement),const(10),const(1000))), product of:
+    1000.0 = if(bool(is_supplement)=false,const(10),const(1000))
+    1.0 = boost
+    0.011993763 = queryNorm
+
+-->
+</div><!-- end result_snippet -->
+
+<div class="result_author">Scott A. Davison
+</div>
+
+<!-- end result_author -->
+
+
+<div class="result_url">
+<a href="https://plato.stanford.edu/search/r?entry=/entries/prophecy/&page=1&total_hits=75&pagesize=10&archive=None&rank=8&query=compatibilism">https://plato.stanford.edu/entries/prophecy/</a>
+</div><!-- end result_url -->
+</div><!-- end result_listing -->
+
+<div class="result_listing">
+<div class="result_title"><a class=l href="https://plato.stanford.edu/search/r?entry=/entries/locke-freedom/&page=1&total_hits=75&pagesize=10&archive=None&rank=9&query=compatibilism">Locke On Freedom
+
+</a>
+</div><!-- end result_title -->
+<div class="result_snippet">
+II.xxi.56:
+ 270–271)[9]
+ 
+
+10. <b>Compatibilism</b> or Incompatibilism?
+
+
+<b>Compatibilism</b> is the thesis that free will<b>...</b> the Will
+9. The Doctrine of Suspension
+10. <b>Compatibilism</b> or Incompatibilism?
+Bibliography
+
+Select Primary<b>...</b>strongly suggests that Locke would
+have embraced <b>compatibilism</b>, if the issue had been put to him
+directly. <b>...</b>
+<!--
+
+11.998739 = (MATCH) sum of:
+  0.0049765278 = (MATCH) max plus 0.1 times others of:
+    0.0049765278 = (MATCH) weight(content:compatibilism in 76) [DefaultSimilarity], result of:
+      0.0049765278 = score(doc=76,freq=6.0), product of:
+        0.055848062 = queryWeight, product of:
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.011993763 = queryNorm
+        0.08910833 = fieldWeight in 76, product of:
+          2.4494898 = tf(freq=6.0), with freq of:
+            6.0 = termFreq=6.0
+          4.6564255 = idf(docFreq=118, maxDocs=4608)
+          0.0078125 = fieldNorm(doc=76)
+  11.993763 = (MATCH) FunctionQuery(if(bool(is_supplement),const(10),const(1000))), product of:
+    1000.0 = if(bool(is_supplement)=false,const(10),const(1000))
+    1.0 = boost
+    0.011993763 = queryNorm
+
+-->
+</div><!-- end result_snippet -->
+
+<div class="result_author">Samuel Rickless
+</div>
+
+<!-- end result_author -->
+
+
+<div class="result_url">
+<a href="https://plato.stanford.edu/search/r?entry=/entries/locke-freedom/&page=1&total_hits=75&pagesize=10&archive=None&rank=9&query=compatibilism">https://plato.stanford.edu/entries/locke-freedom/</a>
+</div><!-- end result_url -->
+</div><!-- end result_listing -->
+
+
+
+
+	            <div style="font-family:Arial, Helvetica, sans-serif; margin-top:20px;font-size:13pt; width:30em; font-weight:bold;"align="left " class="PagingNav">
+
+	                
+	                    Prev
+                    
+
+                    
+                        
+                                <span>1</span>
+	                    
+	                
+                        
+	                       
+                                <a href="https://plato.stanford.edu/search/search?page=2&query=compatibilism&prepend=None">2</a>
+                            
+                        
+	                
+                        
+	                       
+                                <a href="https://plato.stanford.edu/search/search?page=3&query=compatibilism&prepend=None">3</a>
+                            
+                        
+	                
+                        
+	                       
+                                <a href="https://plato.stanford.edu/search/search?page=4&query=compatibilism&prepend=None">4</a>
+                            
+                        
+	                
+                        
+	                       
+                                <a href="https://plato.stanford.edu/search/search?page=5&query=compatibilism&prepend=None">5</a>
+                            
+                        
+	                
+                        
+	                       
+                                <a href="https://plato.stanford.edu/search/search?page=6&query=compatibilism&prepend=None">6</a>
+                            
+                        
+	                
+                        
+	                       
+                                <a href="https://plato.stanford.edu/search/search?page=7&query=compatibilism&prepend=None">7</a>
+                            
+                        
+	                
+                        
+	                       
+                                <a href="https://plato.stanford.edu/search/search?page=8&query=compatibilism&prepend=None">8</a>
+                            
+                        
+	                
+
+	                
+                        
+                            <a href="https://plato.stanford.edu/search/search?page=2&query=compatibilism&prepend=None">Next</a>
+                        
+                    
+
+
+
+
+
+
+
+</div><!-- end search_results -->
+</div><!-- end searchpage -->
+
+    </div> <!-- End content --><!--DO NOT MODIFY THIS LINE AND BELOW-->
+
+
+
+
+
+
+    <div id="footer" class="scroll-block">
+
+      <div id="footer-menu">
+        <div class="menu-block">
+          <span class="listheader"><i class="icon-book"></i> Browse</span>
+          <ul role="menu">
+            <li role="menuitem"><a href="../contents.html">Table of Contents</a></li>
+            <li role="menuitem"><a href="../new.html">What's New</a></li>
+            <li role="menuitem"><a href="https://plato.stanford.edu/cgi-bin/encyclopedia/random">Random Entry</a></li>
+            <li role="menuitem"><a href="../published.html">Chronological</a></li>
+            <li role="menuitem"><a href="../archives/">Archives</a></li>
+          </ul>
+        </div>
+        <div class="menu-block">
+          <span class="listheader"><i class="icon-info-sign"></i> About</span>
+          <ul role="menu">
+            <li role="menuitem"><a href="../info.html">Editorial Information</a></li>
+            <li role="menuitem"><a href="../about.html">About the SEP</a></li>
+            <li role="menuitem"><a href="../board.html">Editorial Board</a></li>
+            <li role="menuitem"><a href="../cite.html">How to Cite the SEP</a></li>
+            <li role="menuitem"><a href="../special-characters.html">Special Characters</a></li>
+            <li role="menuitem"><a href="../tools/">Advanced Tools</a></li>
+            <li role="menuitem"><a href="../contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="menu-block">
+          <span class="listheader"><i class="icon-leaf"></i> Support SEP</span>
+          <ul role="menu">
+            <li role="menuitem"><a href="../support/">Support the SEP</a></li>
+            <li role="menuitem"><a href="../support/friends.html">PDFs for SEP Friends</a></li>
+            <li role="menuitem"><a href="../support/donate.html">Make a Donation</a></li>
+            <li role="menuitem"><a href="../support/sepia.html">SEPIA for Libraries</a></li>
+          </ul>
+        </div>
+      </div> <!-- End footer menu -->
+
+      <div id="mirrors">
+        <div id="mirror-info">
+          <span class="listheader"><i class="icon-globe"></i> Mirror Sites</span>
+          <p>View this site from another server:</p>
+        </div>
+        <div class="btn-group open">
+          <a class="btn dropdown-toggle" data-toggle="dropdown" href="https://plato.stanford.edu/">
+            <span class="flag flag-usa"></span> USA (Main Site) <span class="caret"></span>
+            <span class="mirror-source">CSLI, Stanford University</span>
+          </a>
+          <ul class="dropdown-menu">
+	    <li><a href="../../mirrors.html">Info about mirror sites</a></li>
+          </ul>
+        </div>
+      </div> <!-- End mirrors -->
+
+      <div id="site-credits">
+        <p>The Stanford Encyclopedia of Philosophy is <a href="info.html#c">copyright &copy; 2026</a> by <a href="https://mally.stanford.edu/">The Metaphysics Research Lab</a>, Department of Philosophy, Stanford University</p>
+        <p>Library of Congress Catalog Data: ISSN 1095-5054</p>
+      </div> <!-- End site credits -->
+
+    </div> <!-- End footer -->
+
+  </div> <!-- End container -->
+
+   <!-- NOTE: Script required for drop-down button to work (mirrors). -->
+  <script>
+    $('.dropdown-toggle').dropdown();
+  </script>
+
+</body>
+</html>

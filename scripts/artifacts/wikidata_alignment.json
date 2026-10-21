@@ -1,0 +1,3643 @@
+{
+  "meta": {
+    "source": "wikidata",
+    "license": "CC0-1.0",
+    "generated_at": "2026-10-20T18:16:32.205764+00:00",
+    "transport": "sparqlwrapper",
+    "occupation_filter": "closure",
+    "score_threshold": 35,
+    "note": "Atlas 种子（CC BY 4.0，见 docs/data-license.md）与 Wikidata 的实体对齐工件；DB 回填以本文件为准，可重复 apply"
+  },
+  "aligned": [
+    {
+      "atlas_id": 1,
+      "name_pt": "Tales de Mileto",
+      "qid": "Q36303",
+      "name_en": "Thales",
+      "name_zh": "泰勒斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 2,
+      "name_pt": "Heráclito",
+      "qid": "Q41155",
+      "name_en": "Heraclitus",
+      "name_zh": "赫拉克利特",
+      "score": 55,
+      "confidence": "medium",
+      "method": "alias_exact+birth_year"
+    },
+    {
+      "atlas_id": 3,
+      "name_pt": "Parmênides",
+      "qid": "Q125551",
+      "name_en": "Parmenides",
+      "name_zh": "巴门尼德",
+      "score": 40,
+      "confidence": "low",
+      "method": "pt_label_exact"
+    },
+    {
+      "atlas_id": 4,
+      "name_pt": "Demócrito",
+      "qid": "Q41980",
+      "name_en": "Democritus",
+      "name_zh": "德谟克利特",
+      "score": 55,
+      "confidence": "medium",
+      "method": "alias_exact+birth_year"
+    },
+    {
+      "atlas_id": 5,
+      "name_pt": "Pitágoras",
+      "qid": "Q10261",
+      "name_en": "Pythagoras",
+      "name_zh": "畢達哥拉斯",
+      "score": 40,
+      "confidence": "low",
+      "method": "pt_label_exact"
+    },
+    {
+      "atlas_id": 6,
+      "name_pt": "Sócrates",
+      "qid": "Q913",
+      "name_en": "Socrates",
+      "name_zh": "苏格拉底",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 7,
+      "name_pt": "Platão",
+      "qid": "Q859",
+      "name_en": "Plato",
+      "name_zh": "柏拉图",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 8,
+      "name_pt": "Aristóteles",
+      "qid": "Q868",
+      "name_en": "Aristotle",
+      "name_zh": "亞里士多德",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 9,
+      "name_pt": "Epicuro",
+      "qid": "Q43216",
+      "name_en": "Epicurus",
+      "name_zh": "伊壁鸠鲁",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 10,
+      "name_pt": "Epicteto",
+      "qid": "Q183144",
+      "name_en": "Epictetus",
+      "name_zh": "愛比克泰德",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 11,
+      "name_pt": "Marco Aurélio",
+      "qid": "Q1430",
+      "name_en": "Marcus Aurelius",
+      "name_zh": "馬爾庫斯·奧列里烏斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 12,
+      "name_pt": "Pirro de Élis",
+      "qid": "Q192313",
+      "name_en": "Pyrrho",
+      "name_zh": "皮浪",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 13,
+      "name_pt": "Agostinho de Hipona",
+      "qid": "Q8018",
+      "name_en": "Augustine of Hippo",
+      "name_zh": "奥古斯丁",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 14,
+      "name_pt": "Anselmo de Cantuária",
+      "qid": "Q43939",
+      "name_en": "Anselm of Canterbury",
+      "name_zh": "安瑟倫",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 15,
+      "name_pt": "Tomás de Aquino",
+      "qid": "Q9438",
+      "name_en": "Thomas Aquinas",
+      "name_zh": "托马斯·阿奎那",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 16,
+      "name_pt": "Duns Scotus",
+      "qid": "Q190089",
+      "name_en": "John Duns Scotus",
+      "name_zh": "邓斯·司各脱",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 17,
+      "name_pt": "Guilherme de Ockham",
+      "qid": "Q43936",
+      "name_en": "William of Ockham",
+      "name_zh": "奥卡姆的威廉",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 18,
+      "name_pt": "Pico della Mirandola",
+      "qid": "Q182128",
+      "name_en": "Giovanni Pico della Mirandola",
+      "name_zh": "若望·皮科·德拉·米蘭多拉",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 19,
+      "name_pt": "Erasmo de Roterdã",
+      "qid": "Q43499",
+      "name_en": "Erasmus",
+      "name_zh": "德西德里乌斯·伊拉斯谟",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 20,
+      "name_pt": "Maquiavel",
+      "qid": "Q1399",
+      "name_en": "Niccolò Machiavelli",
+      "name_zh": "尼可罗·马基亚维利",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 22,
+      "name_pt": "Descartes",
+      "qid": "Q9191",
+      "name_en": "René Descartes",
+      "name_zh": "勒内·笛卡儿",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 23,
+      "name_pt": "Spinoza",
+      "qid": "Q35802",
+      "name_en": "Benedictus de Spinoza",
+      "name_zh": "巴魯赫·斯賓諾莎",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 24,
+      "name_pt": "Leibniz",
+      "qid": "Q9047",
+      "name_en": "Gottfried Wilhelm Leibniz",
+      "name_zh": "戈特弗里德·威廉·莱布尼茨",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 25,
+      "name_pt": "Francis Bacon",
+      "qid": "Q37388",
+      "name_en": "Francis Bacon",
+      "name_zh": "弗朗西斯·培根",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 26,
+      "name_pt": "Hobbes",
+      "qid": "Q37621",
+      "name_en": "Thomas Hobbes",
+      "name_zh": "托马斯·霍布斯",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 27,
+      "name_pt": "Locke",
+      "qid": "Q9353",
+      "name_en": "John Locke",
+      "name_zh": "约翰·洛克",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 30,
+      "name_pt": "Rousseau",
+      "qid": "Q6527",
+      "name_en": "Jean-Jacques Rousseau",
+      "name_zh": "让-雅克·卢梭",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 31,
+      "name_pt": "Voltaire",
+      "qid": "Q9068",
+      "name_en": "Voltaire",
+      "name_zh": "伏爾泰",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 32,
+      "name_pt": "Montesquieu",
+      "qid": "Q15975",
+      "name_en": "Baron de Montesquieu",
+      "name_zh": "孟德斯鸠",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 33,
+      "name_pt": "Kant",
+      "qid": "Q9312",
+      "name_en": "Immanuel Kant",
+      "name_zh": "伊曼努爾·康德",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 34,
+      "name_pt": "Giordano Bruno",
+      "qid": "Q36330",
+      "name_en": "Giordano Bruno",
+      "name_zh": "焦爾達諾·布魯諾",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 35,
+      "name_pt": "Nicolau de Cusa",
+      "qid": "Q154751",
+      "name_en": "Nicholas of Cusa",
+      "name_zh": "库萨的尼古拉",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 36,
+      "name_pt": "Plotino",
+      "qid": "Q134189",
+      "name_en": "Plotinus",
+      "name_zh": "普罗提诺",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 37,
+      "name_pt": "Cícero",
+      "qid": "Q1541",
+      "name_en": "Cicero",
+      "name_zh": "西塞罗",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 38,
+      "name_pt": "Lucrécio",
+      "qid": "Q47154",
+      "name_en": "Lucretius",
+      "name_zh": "卢克莱修",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+death_year"
+    },
+    {
+      "atlas_id": 39,
+      "name_pt": "Roger Bacon",
+      "qid": "Q171677",
+      "name_en": "Roger Bacon",
+      "name_zh": "罗吉尔·培根",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+death_year"
+    },
+    {
+      "atlas_id": 40,
+      "name_pt": "Pascal",
+      "qid": "Q1290",
+      "name_en": "Blaise Pascal",
+      "name_zh": "布萊茲·帕斯卡",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 41,
+      "name_pt": "Hegel",
+      "qid": "Q9235",
+      "name_en": "Georg Wilhelm Friedrich Hegel",
+      "name_zh": "格奥尔格·威廉·弗里德里希·黑格尔",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 42,
+      "name_pt": "Schopenhauer",
+      "qid": "Q38193",
+      "name_en": "Arthur Schopenhauer",
+      "name_zh": "亚瑟·叔本华",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 43,
+      "name_pt": "Marx",
+      "qid": "Q9061",
+      "name_en": "Karl Marx",
+      "name_zh": "卡爾·馬克思",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 44,
+      "name_pt": "Kierkegaard",
+      "qid": "Q6512",
+      "name_en": "Søren Kierkegaard",
+      "name_zh": "索倫·克爾凱郭爾",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 45,
+      "name_pt": "John Stuart Mill",
+      "qid": "Q50020",
+      "name_en": "John Stuart Mill",
+      "name_zh": "约翰·斯图尔特·密尔",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 46,
+      "name_pt": "Auguste Comte",
+      "qid": "Q12718",
+      "name_en": "Auguste Comte",
+      "name_zh": "奥古斯特·孔德",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 47,
+      "name_pt": "Herbert Spencer",
+      "qid": "Q144535",
+      "name_en": "Herbert Spencer",
+      "name_zh": "赫伯特·斯宾塞",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 48,
+      "name_pt": "Nietzsche",
+      "qid": "Q9358",
+      "name_en": "Friedrich Nietzsche",
+      "name_zh": "弗里德里希·尼采",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 50,
+      "name_pt": "Gottlob Frege",
+      "qid": "Q60028",
+      "name_en": "Gottlob Frege",
+      "name_zh": "戈特洛布·弗雷格",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 51,
+      "name_pt": "Henri Bergson",
+      "qid": "Q42156",
+      "name_en": "Henri Bergson",
+      "name_zh": "亨利·柏格森",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 52,
+      "name_pt": "William James",
+      "qid": "Q125249",
+      "name_en": "William James",
+      "name_zh": "威廉·詹姆士",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 53,
+      "name_pt": "Wilhelm Dilthey",
+      "qid": "Q60080",
+      "name_en": "Wilhelm Dilthey",
+      "name_zh": "威廉·狄尔泰",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 54,
+      "name_pt": "Friedrich Engels",
+      "qid": "Q34787",
+      "name_en": "Friedrich Engels",
+      "name_zh": "弗里德里希·恩格斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 55,
+      "name_pt": "Schelling",
+      "qid": "Q60070",
+      "name_en": "Friedrich Wilhelm Joseph Schelling",
+      "name_zh": "弗里德里希·谢林",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 56,
+      "name_pt": "Husserl",
+      "qid": "Q58586",
+      "name_en": "Edmund Husserl",
+      "name_zh": "埃德蒙德·胡塞爾",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 57,
+      "name_pt": "Heidegger",
+      "qid": "Q48301",
+      "name_en": "Martin Heidegger",
+      "name_zh": "马丁·海德格尔",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 59,
+      "name_pt": "Bertrand Russell",
+      "qid": "Q33760",
+      "name_en": "Bertrand Russell",
+      "name_zh": "伯特兰·罗素",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 60,
+      "name_pt": "John Dewey",
+      "qid": "Q131805",
+      "name_en": "John Dewey",
+      "name_zh": "约翰·杜威",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 61,
+      "name_pt": "Sartre",
+      "qid": "Q9364",
+      "name_en": "Jean-Paul Sartre",
+      "name_zh": "让-保罗·萨特",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 62,
+      "name_pt": "Camus",
+      "qid": "Q34670",
+      "name_en": "Albert Camus",
+      "name_zh": "阿尔贝·加缪",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 63,
+      "name_pt": "Simone de Beauvoir",
+      "qid": "Q7197",
+      "name_en": "Simone de Beauvoir",
+      "name_zh": "西蒙·波娃",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 64,
+      "name_pt": "Merleau-Ponty",
+      "qid": "Q212639",
+      "name_en": "Maurice Merleau-Ponty",
+      "name_zh": "莫里斯·梅洛-龐蒂",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 65,
+      "name_pt": "Karl Popper",
+      "qid": "Q81244",
+      "name_en": "Karl Popper",
+      "name_zh": "卡尔·波普尔",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 66,
+      "name_pt": "Hannah Arendt",
+      "qid": "Q60025",
+      "name_en": "Hannah Arendt",
+      "name_zh": "汉娜·阿伦特",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 67,
+      "name_pt": "Michel Foucault",
+      "qid": "Q44272",
+      "name_en": "Michel Foucault",
+      "name_zh": "米歇尔·福柯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 68,
+      "name_pt": "John Rawls",
+      "qid": "Q172544",
+      "name_en": "John Rawls",
+      "name_zh": "约翰·罗尔斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 69,
+      "name_pt": "Jürgen Habermas",
+      "qid": "Q76357",
+      "name_en": "Jürgen Habermas",
+      "name_zh": "于尔根·哈贝马斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 70,
+      "name_pt": "Jacques Derrida",
+      "qid": "Q130631",
+      "name_en": "Jacques Derrida",
+      "name_zh": "雅克·德里达",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 71,
+      "name_pt": "Al-Kindi",
+      "qid": "Q179759",
+      "name_en": "Al-Kindi",
+      "name_zh": "肯迪",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 72,
+      "name_pt": "Al-Farabi",
+      "qid": "Q160460",
+      "name_en": "Farabi",
+      "name_zh": "法拉比",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 73,
+      "name_pt": "Avicena",
+      "qid": "Q8011",
+      "name_en": "Avicenna",
+      "name_zh": "伊本·西那",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 74,
+      "name_pt": "Al-Ghazali",
+      "qid": "Q9546",
+      "name_en": "Al-Ghazali",
+      "name_zh": "安萨里",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 75,
+      "name_pt": "Averróis",
+      "qid": "Q39837",
+      "name_en": "Averroes",
+      "name_zh": "伊本·魯世德",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 76,
+      "name_pt": "Ibn Khaldun",
+      "qid": "Q9294",
+      "name_en": "Ibn Khaldun",
+      "name_zh": "伊本·赫勒敦",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 77,
+      "name_pt": "Mulla Sadra",
+      "qid": "Q2010955",
+      "name_en": "Mulla Sadra",
+      "name_zh": "穆拉 沙扎",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 78,
+      "name_pt": "Ibn Tufayl",
+      "qid": "Q251259",
+      "name_en": "Ibn Tufayl",
+      "name_zh": "伊本·圖菲利",
+      "score": 55,
+      "confidence": "medium",
+      "method": "en_label_exact+death_year"
+    },
+    {
+      "atlas_id": 80,
+      "name_pt": "Nagarjuna",
+      "qid": "Q171195",
+      "name_en": "Nagarjuna",
+      "name_zh": "龙树",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 81,
+      "name_pt": "Shankaracharya",
+      "qid": "Q180967",
+      "name_en": "Ādi Shankara",
+      "name_zh": "阿迪·商羯罗",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 82,
+      "name_pt": "Ramanuja",
+      "qid": "Q1741798",
+      "name_en": "Shri Ramanujacharya",
+      "name_zh": "羅摩奴闍",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 83,
+      "name_pt": "Patanjali",
+      "qid": "Q231680",
+      "name_en": "Patanjali",
+      "name_zh": "波颠阇利",
+      "score": 35,
+      "confidence": "low",
+      "method": "en_label_exact"
+    },
+    {
+      "atlas_id": 84,
+      "name_pt": "Chanakya",
+      "qid": "Q9045",
+      "name_en": "Chanakya",
+      "name_zh": "考底利耶",
+      "score": 55,
+      "confidence": "medium",
+      "method": "en_label_exact+death_year"
+    },
+    {
+      "atlas_id": 85,
+      "name_pt": "Madhva",
+      "qid": "Q335371",
+      "name_en": "Madhvacharya",
+      "name_zh": "摩陀婆",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 86,
+      "name_pt": "Abhinavagupta",
+      "qid": "Q320619",
+      "name_en": null,
+      "name_zh": "阿毘那婆笈多",
+      "score": 35,
+      "confidence": "low",
+      "method": "contains+birth_year"
+    },
+    {
+      "atlas_id": 87,
+      "name_pt": "Sri Aurobindo",
+      "qid": "Q192207",
+      "name_en": "Aurobindo Ghosh",
+      "name_zh": "室利·奧羅賓多",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 88,
+      "name_pt": "Vivekananda",
+      "qid": "Q47478",
+      "name_en": "Swami Vivekananda",
+      "name_zh": "斯瓦米·維韋卡南達",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 89,
+      "name_pt": "B.R. Ambedkar",
+      "qid": "Q231690",
+      "name_en": null,
+      "name_zh": "比姆拉奥·拉姆吉·安贝德卡",
+      "score": 40,
+      "confidence": "low",
+      "method": "birth_year+death_year"
+    },
+    {
+      "atlas_id": 90,
+      "name_pt": "Confúcio",
+      "qid": "Q4604",
+      "name_en": "Confucius",
+      "name_zh": "孔子",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 92,
+      "name_pt": "Zhuangzi",
+      "qid": "Q47739",
+      "name_en": "Zhuang Zhou",
+      "name_zh": "庄子",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 93,
+      "name_pt": "Mozi",
+      "qid": "Q272411",
+      "name_en": "Mozi",
+      "name_zh": "墨子",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 94,
+      "name_pt": "Mengzi",
+      "qid": "Q188903",
+      "name_en": "Mencius",
+      "name_zh": "孟子",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 95,
+      "name_pt": "Xunzi",
+      "qid": "Q216072",
+      "name_en": "Xunzi",
+      "name_zh": "荀子",
+      "score": 55,
+      "confidence": "medium",
+      "method": "en_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 96,
+      "name_pt": "Han Fei",
+      "qid": "Q28959",
+      "name_en": "Han Fei",
+      "name_zh": "韓非",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 97,
+      "name_pt": "Wang Yangming",
+      "qid": "Q378462",
+      "name_en": "Wang Yangming",
+      "name_zh": "王陽明",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 98,
+      "name_pt": "Zhu Xi",
+      "qid": "Q9397",
+      "name_en": "Zhu Xi",
+      "name_zh": "朱熹",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 99,
+      "name_pt": "Huineng",
+      "qid": "Q345012",
+      "name_en": "Huineng",
+      "name_zh": "惠能",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 100,
+      "name_pt": "Maimônides",
+      "qid": "Q127398",
+      "name_en": "Moshe ben Maimon",
+      "name_zh": "邁蒙尼德",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 101,
+      "name_pt": "Hildegarda de Bingen",
+      "qid": "Q70991",
+      "name_en": "Hildegard of Bingen",
+      "name_zh": "宾根的希尔德加德",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 102,
+      "name_pt": "Farias Brito",
+      "qid": "Q3892112",
+      "name_en": "Raimundo de Farias Brito",
+      "name_zh": null,
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 103,
+      "name_pt": "Miguel Reale",
+      "qid": "Q2698472",
+      "name_en": "Miguel Reale",
+      "name_zh": null,
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 104,
+      "name_pt": "Paulo Freire",
+      "qid": "Q164797",
+      "name_en": "Paulo Freire",
+      "name_zh": "保羅·弗萊雷",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 105,
+      "name_pt": "Marilena Chauí",
+      "qid": "Q3891586",
+      "name_en": "Marilena de Souza Chauí",
+      "name_zh": "玛丽莲娜·德·索萨·乔伊",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 106,
+      "name_pt": "Álvaro Vieira Pinto",
+      "qid": "Q10395870",
+      "name_en": "Álvaro Vieira Pinto",
+      "name_zh": null,
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 107,
+      "name_pt": "Mangabeira Unger",
+      "qid": "Q569063",
+      "name_en": "Roberto Mangabeira Unger",
+      "name_zh": "昂格爾",
+      "score": 55,
+      "confidence": "medium",
+      "method": "alias_exact+birth_year"
+    },
+    {
+      "atlas_id": 108,
+      "name_pt": "Luiz Felipe Pondé",
+      "qid": "Q10320719",
+      "name_en": "Luiz Felipe Pondé",
+      "name_zh": null,
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 109,
+      "name_pt": "Enrique Dussel",
+      "qid": "Q473518",
+      "name_en": "Enrique Dussel",
+      "name_zh": "恩立克·杜賽爾",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 110,
+      "name_pt": "José Carlos Mariátegui",
+      "qid": "Q335544",
+      "name_en": "José Carlos Mariátegui",
+      "name_zh": "何塞·卡洛斯·马里亚特吉",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 111,
+      "name_pt": "José Vasconcelos",
+      "qid": "Q1091141",
+      "name_en": "José Vasconcelos",
+      "name_zh": "何塞·巴斯孔塞洛斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 112,
+      "name_pt": "Leopoldo Zea",
+      "qid": "Q1879022",
+      "name_en": "Leopoldo Zea",
+      "name_zh": null,
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 113,
+      "name_pt": "Rodolfo Kusch",
+      "qid": "Q6110534",
+      "name_en": "Rodolfo Kusch",
+      "name_zh": null,
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 114,
+      "name_pt": "Augusto Salazar Bondy",
+      "qid": "Q5711746",
+      "name_en": "Augusto Salazar Bondy",
+      "name_zh": null,
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 116,
+      "name_pt": "Juan Bautista Alberdi",
+      "qid": "Q722738",
+      "name_en": "Juan Bautista Alberdi",
+      "name_zh": "胡安·包蒂斯塔·阿尔韦迪",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 117,
+      "name_pt": "Richard Rorty",
+      "qid": "Q215258",
+      "name_en": "Richard Rorty",
+      "name_zh": "理查德·罗蒂",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 118,
+      "name_pt": "Paul Ricoeur",
+      "qid": "Q192066",
+      "name_en": "Paul Ricœur",
+      "name_zh": "保羅·呂格爾",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 119,
+      "name_pt": "Frantz Fanon",
+      "qid": "Q193670",
+      "name_en": "Frantz Fanon",
+      "name_zh": "弗朗茨·法农",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 120,
+      "name_pt": "Achille Mbembe",
+      "qid": "Q340234",
+      "name_en": "Achille Mbembe",
+      "name_zh": "阿基里·姆贝姆比",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 121,
+      "name_pt": "Kwasi Wiredu",
+      "qid": "Q570103",
+      "name_en": "Kwasi Wiredu",
+      "name_zh": "K. 维雷杜",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 122,
+      "name_pt": "Cheikh Anta Diop",
+      "qid": "Q521729",
+      "name_en": "Cheikh Anta Diop",
+      "name_zh": "谢赫·安塔·迪奥普",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 123,
+      "name_pt": "Paulin Hountondji",
+      "qid": "Q712288",
+      "name_en": "Paulin Hountondji",
+      "name_zh": "P.J. 霍恩通吉",
+      "score": 55,
+      "confidence": "medium",
+      "method": "en_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 124,
+      "name_pt": "V. Y. Mudimbe",
+      "qid": "Q3056528",
+      "name_en": "V. Y. Mudimbe",
+      "name_zh": null,
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 125,
+      "name_pt": "Anthony Appiah",
+      "qid": "Q572741",
+      "name_en": "Kwame Anthony Appiah",
+      "name_zh": "奎迈·安东尼·阿皮亚",
+      "score": 55,
+      "confidence": "medium",
+      "method": "alias_exact+birth_year"
+    },
+    {
+      "atlas_id": 126,
+      "name_pt": "Mogobe Ramose",
+      "qid": "Q61434730",
+      "name_en": "Mogobe Ramose",
+      "name_zh": null,
+      "score": 35,
+      "confidence": "low",
+      "method": "en_label_exact"
+    },
+    {
+      "atlas_id": 127,
+      "name_pt": "Mary Wollstonecraft",
+      "qid": "Q101638",
+      "name_en": "Mary Wollstonecraft",
+      "name_zh": "玛丽·沃斯通克拉夫特",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 128,
+      "name_pt": "Judith Butler",
+      "qid": "Q219368",
+      "name_en": "Judith Butler",
+      "name_zh": "朱迪丝·巴特勒",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 129,
+      "name_pt": "Martha Nussbaum",
+      "qid": "Q235470",
+      "name_en": "Martha Nussbaum",
+      "name_zh": "瑪莎·努斯鮑姆",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 130,
+      "name_pt": "Simone Weil",
+      "qid": "Q157309",
+      "name_en": "Simone Weil",
+      "name_zh": "西蒙娜·薇依",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 131,
+      "name_pt": "bell hooks",
+      "qid": "Q259507",
+      "name_en": "bell hooks",
+      "name_zh": "貝爾‧胡克斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 132,
+      "name_pt": "Angela Davis",
+      "qid": "Q160456",
+      "name_en": "Angela Davis",
+      "name_zh": "安吉拉·戴维斯",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 133,
+      "name_pt": "Carol Gilligan",
+      "qid": "Q284025",
+      "name_en": "Carol Gilligan",
+      "name_zh": "卡罗尔·吉利根",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 134,
+      "name_pt": "Gayatri Spivak",
+      "qid": "Q240851",
+      "name_en": "Gayatri Chakravorty Spivak",
+      "name_zh": "加亚特丽·查克拉沃蒂·斯皮瓦克",
+      "score": 55,
+      "confidence": "medium",
+      "method": "alias_exact+birth_year"
+    },
+    {
+      "atlas_id": 135,
+      "name_pt": "Iris Marion Young",
+      "qid": "Q543381",
+      "name_en": "Iris Marion Young",
+      "name_zh": "艾里斯·瑪麗恩·楊",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 136,
+      "name_pt": "Luce Irigaray",
+      "qid": "Q28918",
+      "name_en": "Luce Irigaray",
+      "name_zh": "路思·伊瑞葛來",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 137,
+      "name_pt": "Axel Honneth",
+      "qid": "Q60735",
+      "name_en": "Axel Honneth",
+      "name_zh": "阿克塞尔·霍耐特",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 138,
+      "name_pt": "Charles Taylor",
+      "qid": "Q311757",
+      "name_en": "Charles Taylor",
+      "name_zh": "查尔斯·泰勒",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 139,
+      "name_pt": "Nishida Kitaro",
+      "qid": "Q45125",
+      "name_en": "Kitarō Nishida",
+      "name_zh": "西田幾多郎",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 140,
+      "name_pt": "Dogen",
+      "qid": "Q318064",
+      "name_en": "Dōgen",
+      "name_zh": "永平道元",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 141,
+      "name_pt": "Watsuji Tetsuro",
+      "qid": "Q969266",
+      "name_en": "Tetsuro Watsuji",
+      "name_zh": "和辻哲郎",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 142,
+      "name_pt": "Nishitani Keiji",
+      "qid": "Q1993564",
+      "name_en": "Keiji Nishitani",
+      "name_zh": "西谷啓治",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 143,
+      "name_pt": "Tanabe Hajime",
+      "qid": "Q1394797",
+      "name_en": "Hajime Tanabe",
+      "name_zh": "田邊元",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 144,
+      "name_pt": "Willard Quine",
+      "qid": "Q214969",
+      "name_en": "Willard Van Orman Quine",
+      "name_zh": "威拉德·范奥曼·蒯因",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 145,
+      "name_pt": "Saul Kripke",
+      "qid": "Q298521",
+      "name_en": "Saul Kripke",
+      "name_zh": "索尔·阿伦·克里普克",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 146,
+      "name_pt": "Daniel Dennett",
+      "qid": "Q215263",
+      "name_en": "Daniel Dennett",
+      "name_zh": "丹尼爾·丹尼特",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 147,
+      "name_pt": "Derek Parfit",
+      "qid": "Q962160",
+      "name_en": "Derek Parfit",
+      "name_zh": "德里克·帕菲特",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 148,
+      "name_pt": "Peter Singer",
+      "qid": "Q211539",
+      "name_en": "Peter Singer",
+      "name_zh": "彼得·辛格",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 149,
+      "name_pt": "David Chalmers",
+      "qid": "Q366123",
+      "name_en": "David Chalmers",
+      "name_zh": "大卫·查默斯",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 150,
+      "name_pt": "Thomas Nagel",
+      "qid": "Q350239",
+      "name_en": "Thomas Nagel",
+      "name_zh": "湯瑪斯·內格爾",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 151,
+      "name_pt": "John Searle",
+      "qid": "Q295012",
+      "name_en": "John Searle",
+      "name_zh": "约翰·罗杰斯·希尔勒",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 152,
+      "name_pt": "David Lewis",
+      "qid": "Q384522",
+      "name_en": "David Lewis",
+      "name_zh": "大卫·里维斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 153,
+      "name_pt": "Christine Korsgaard",
+      "qid": "Q467518",
+      "name_en": "Christine Korsgaard",
+      "name_zh": "克里斯廷·高斯格",
+      "score": 55,
+      "confidence": "medium",
+      "method": "en_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 154,
+      "name_pt": "Hilary Putnam",
+      "qid": "Q221697",
+      "name_en": "Hilary Putnam",
+      "name_zh": "希拉里·怀特霍尔·帕特南",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 155,
+      "name_pt": "Michael Dummett",
+      "qid": "Q342646",
+      "name_en": "Michael Dummett",
+      "name_zh": "達梅特",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 156,
+      "name_pt": "Paul Feyerabend",
+      "qid": "Q78497",
+      "name_en": "Paul Feyerabend",
+      "name_zh": "保罗·费耶阿本德",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 158,
+      "name_pt": "Michael Sandel",
+      "qid": "Q381044",
+      "name_en": "Michael Sandel",
+      "name_zh": "邁克爾·桑德爾",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 159,
+      "name_pt": "Bruno Latour",
+      "qid": "Q355237",
+      "name_en": "Bruno Latour",
+      "name_zh": "布鲁诺·拉图尔",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 160,
+      "name_pt": "Donna Haraway",
+      "qid": "Q253407",
+      "name_en": "Donna Haraway",
+      "name_zh": "唐娜·哈拉维",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 161,
+      "name_pt": "Alain Badiou",
+      "qid": "Q311005",
+      "name_en": "Alain Badiou",
+      "name_zh": "阿兰·巴迪欧",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 162,
+      "name_pt": "Slavoj Žižek",
+      "qid": "Q184750",
+      "name_en": "Slavoj Žižek",
+      "name_zh": "斯拉沃熱·齊澤克",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 163,
+      "name_pt": "Theodor Adorno",
+      "qid": "Q152388",
+      "name_en": "Theodor W. Adorno",
+      "name_zh": "狄奧多·阿多諾",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 164,
+      "name_pt": "Walter Benjamin",
+      "qid": "Q61078",
+      "name_en": "Walter Benjamin",
+      "name_zh": "瓦尔特·本雅明",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 165,
+      "name_pt": "Max Horkheimer",
+      "qid": "Q76826",
+      "name_en": "Max Horkheimer",
+      "name_zh": "麥克斯·霍克海默",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 166,
+      "name_pt": "Gaston Bachelard",
+      "qid": "Q270800",
+      "name_en": "Gaston Bachelard",
+      "name_zh": "加斯东·巴舍拉",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 167,
+      "name_pt": "Ludwig Feuerbach",
+      "qid": "Q76422",
+      "name_en": "Ludwig Feuerbach",
+      "name_zh": "路德维希·费尔巴哈",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 168,
+      "name_pt": "Jeremy Bentham",
+      "qid": "Q60887",
+      "name_en": "Jeremy Bentham",
+      "name_zh": "杰里米·边沁",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 169,
+      "name_pt": "Thomas Kuhn",
+      "qid": "Q184980",
+      "name_en": "Thomas Kuhn",
+      "name_zh": "托马斯·库恩",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 170,
+      "name_pt": "Proclo",
+      "qid": "Q271809",
+      "name_en": "Proclus",
+      "name_zh": "普罗克洛",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 171,
+      "name_pt": "Sêneca",
+      "qid": "Q2054",
+      "name_en": "Seneca",
+      "name_zh": "塞內卡",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+death_year"
+    },
+    {
+      "atlas_id": 172,
+      "name_pt": "Johann Fichte",
+      "qid": "Q102585",
+      "name_en": "Johann Gottlieb Fichte",
+      "name_zh": "約翰·戈特利布·費希特",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 173,
+      "name_pt": "Herbert Marcuse",
+      "qid": "Q60030",
+      "name_en": "Herbert Marcuse",
+      "name_zh": "赫伯特·马尔库塞",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 174,
+      "name_pt": "Antonio Gramsci",
+      "qid": "Q83003",
+      "name_en": "Antonio Gramsci",
+      "name_zh": "安东尼奥·葛兰西",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 175,
+      "name_pt": "Friedrich Schleiermacher",
+      "qid": "Q76576",
+      "name_en": "Friedrich Schleiermacher",
+      "name_zh": "弗里德里希·施萊爾馬赫",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 176,
+      "name_pt": "Ernst Mach",
+      "qid": "Q93996",
+      "name_en": "Ernst Mach",
+      "name_zh": "恩斯特·马赫",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 177,
+      "name_pt": "Ivan Illich",
+      "qid": "Q84186",
+      "name_en": "Ivan Illich",
+      "name_zh": "伊凡·伊利奇",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 178,
+      "name_pt": "Zenão de Cítio",
+      "qid": "Q171303",
+      "name_en": "Zeno of Citium",
+      "name_zh": "季蒂昂的芝诺",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 179,
+      "name_pt": "C.S. Peirce",
+      "qid": "Q187520",
+      "name_en": "Charles Sanders Peirce",
+      "name_zh": "查尔斯·桑德斯·皮尔士",
+      "score": 40,
+      "confidence": "low",
+      "method": "birth_year+death_year"
+    },
+    {
+      "atlas_id": 180,
+      "name_pt": "Boécio",
+      "qid": "Q102851",
+      "name_en": "Boethius",
+      "name_zh": "波愛修斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 181,
+      "name_pt": "Rosa Luxemburgo",
+      "qid": "Q7231",
+      "name_en": "Rosa Luxemburg",
+      "name_zh": "羅莎·盧森堡",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 182,
+      "name_pt": "Karl Jaspers",
+      "qid": "Q76509",
+      "name_en": "Karl Jaspers",
+      "name_zh": "卡尔·雅斯贝尔斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 183,
+      "name_pt": "Rumi",
+      "qid": "Q43347",
+      "name_en": "Rumi",
+      "name_zh": "鲁米",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 184,
+      "name_pt": "Suhrawardi",
+      "qid": "Q282883",
+      "name_en": "Shihab al-Din Suhrawardi",
+      "name_zh": null,
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 185,
+      "name_pt": "Nick Bostrom",
+      "qid": "Q460475",
+      "name_en": "Nick Bostrom",
+      "name_zh": "尼克·波斯托姆",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 187,
+      "name_pt": "Sophie Oluwole",
+      "qid": "Q43302497",
+      "name_en": "Sophie Oluwole",
+      "name_zh": "索菲·奧盧沃萊",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 188,
+      "name_pt": "Toegye",
+      "qid": "Q486291",
+      "name_en": "Yi Hwang",
+      "name_zh": "李滉",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 189,
+      "name_pt": "Dasan",
+      "qid": "Q256246",
+      "name_en": "Jeong Yak-yong",
+      "name_zh": "丁若镛",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 190,
+      "name_pt": "Taha Hussein",
+      "qid": "Q328765",
+      "name_en": "Taha Hussein",
+      "name_zh": "塔哈·侯賽因",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 191,
+      "name_pt": "Abd al-Rahman Badawi",
+      "qid": "Q2223815",
+      "name_en": "Abdel Rahman Badawi",
+      "name_zh": "阿卜杜勒·拉赫曼·巴达维",
+      "score": 40,
+      "confidence": "low",
+      "method": "birth_year+death_year"
+    },
+    {
+      "atlas_id": 192,
+      "name_pt": "Odera Oruka",
+      "qid": "Q1607102",
+      "name_en": "Henry Odera Oruka",
+      "name_zh": "H.O. 奥鲁卡",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 193,
+      "name_pt": "G.E. Moore",
+      "qid": "Q295386",
+      "name_en": "G. E. Moore",
+      "name_zh": "乔治·爱德华·摩尔",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 194,
+      "name_pt": "Marsílio de Pádua",
+      "qid": "Q315357",
+      "name_en": "Marsilius of Padua",
+      "name_zh": "帕多瓦的马西略",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 195,
+      "name_pt": "Amia Srinivasan",
+      "qid": "Q66501587",
+      "name_en": "Amia Srinivasan",
+      "name_zh": null,
+      "score": 55,
+      "confidence": "medium",
+      "method": "en_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 197,
+      "name_pt": "Jâmblico",
+      "qid": "Q310916",
+      "name_en": "Iamblichus",
+      "name_zh": "楊布里科斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 198,
+      "name_pt": "Anaximandro",
+      "qid": "Q42458",
+      "name_en": "Anaximander",
+      "name_zh": "阿那克西曼德",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 199,
+      "name_pt": "Empédocles",
+      "qid": "Q83375",
+      "name_en": "Empedocles",
+      "name_zh": "恩培多克勒",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 200,
+      "name_pt": "Anaxágoras",
+      "qid": "Q83041",
+      "name_en": "Anaxagoras",
+      "name_zh": "阿那克萨哥拉",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 201,
+      "name_pt": "Pseudo-Dionísio",
+      "qid": "Q312816",
+      "name_en": "Pseudo-Dionysius the Areopagite",
+      "name_zh": "偽亞略巴古的丟尼修",
+      "score": 40,
+      "confidence": "low",
+      "method": "alias_exact+birth_year+death_year_mismatch"
+    },
+    {
+      "atlas_id": 202,
+      "name_pt": "João Escoto Erígena",
+      "qid": "Q184500",
+      "name_en": "Johannes Scotus Eriugena",
+      "name_zh": "裘安纳·斯哥德·艾儒吉纳",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+death_year"
+    },
+    {
+      "atlas_id": 203,
+      "name_pt": "Hugo Grócio",
+      "qid": "Q154959",
+      "name_en": "Hugo Grotius",
+      "name_zh": "胡果·格老秀斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 204,
+      "name_pt": "Giambattista Vico",
+      "qid": "Q178709",
+      "name_en": "Giambattista Vico",
+      "name_zh": "詹巴蒂斯塔·维柯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 205,
+      "name_pt": "Adam Smith",
+      "qid": "Q9381",
+      "name_en": "Adam Smith",
+      "name_zh": "亚当·斯密",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 206,
+      "name_pt": "Edmund Burke",
+      "qid": "Q165792",
+      "name_en": "Edmund Burke",
+      "name_zh": "埃德蒙·伯克",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 207,
+      "name_pt": "Marquês de Condorcet",
+      "qid": "Q201477",
+      "name_en": "Jean-Antoine-Nicolas de Caritat de Condorcet",
+      "name_zh": "尼古拉·德·孔多塞",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 208,
+      "name_pt": "Georg Lukács",
+      "qid": "Q151523",
+      "name_en": "Georg Lukács",
+      "name_zh": "捷尔吉·卢卡奇",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 209,
+      "name_pt": "Ernst Cassirer",
+      "qid": "Q57188",
+      "name_en": "Ernst Cassirer",
+      "name_zh": "恩斯特·卡西尔",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 210,
+      "name_pt": "Alfred N. Whitehead",
+      "qid": "Q183372",
+      "name_en": "Alfred North Whitehead",
+      "name_zh": "阿尔弗雷德·诺思·怀特海",
+      "score": 40,
+      "confidence": "low",
+      "method": "birth_year+death_year"
+    },
+    {
+      "atlas_id": 211,
+      "name_pt": "Hans-Georg Gadamer",
+      "qid": "Q76356",
+      "name_en": "Hans-Georg Gadamer",
+      "name_zh": "汉斯-格奥尔格·伽达默尔",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 212,
+      "name_pt": "Cornel West",
+      "qid": "Q712469",
+      "name_en": "Cornel West",
+      "name_zh": "康乃爾·韋斯特",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 213,
+      "name_pt": "Zenão de Eleia",
+      "qid": "Q132157",
+      "name_en": "Zeno of Elea",
+      "name_zh": "埃利亚的芝诺",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 214,
+      "name_pt": "Protágoras",
+      "qid": "Q169243",
+      "name_en": "Protagoras",
+      "name_zh": "普罗泰戈拉",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 216,
+      "name_pt": "Pedro Abelardo",
+      "qid": "Q4295",
+      "name_en": "Peter Abelard",
+      "name_zh": "彼得·阿伯拉",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 217,
+      "name_pt": "Alberto Magno",
+      "qid": "Q60059",
+      "name_en": "Albertus Magnus",
+      "name_zh": "艾爾伯圖斯·麥格努斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 218,
+      "name_pt": "Mestre Eckhart",
+      "qid": "Q76548",
+      "name_en": "Meister Eckhart",
+      "name_zh": "埃克哈特大师",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 219,
+      "name_pt": "Ramon Llull",
+      "qid": "Q193660",
+      "name_en": "Ramon Llull",
+      "name_zh": "拉蒙·柳利",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 221,
+      "name_pt": "Christian Wolff",
+      "qid": "Q76510",
+      "name_en": "Christian Wolff",
+      "name_zh": "克里斯蒂安·沃爾夫",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 222,
+      "name_pt": "Claude Helvétius",
+      "qid": "Q190302",
+      "name_en": "Claude Adrien Helvétius",
+      "name_zh": "克洛德·阿德里安·愛爾維修",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 223,
+      "name_pt": "Cesare Beccaria",
+      "qid": "Q223723",
+      "name_en": "Cesare Beccaria",
+      "name_zh": "西萨尔·贝卡里亚",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 224,
+      "name_pt": "William Godwin",
+      "qid": "Q188569",
+      "name_en": "William Godwin",
+      "name_zh": "威廉·戈德温",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 225,
+      "name_pt": "Pierre-Joseph Proudhon",
+      "qid": "Q5749",
+      "name_en": "Pierre-Joseph Proudhon",
+      "name_zh": "皮埃爾-約瑟夫·普魯東",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 226,
+      "name_pt": "Mikhail Bakunin",
+      "qid": "Q27645",
+      "name_en": "Mikhail Bakunin",
+      "name_zh": "米哈伊尔·巴枯宁",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 227,
+      "name_pt": "Alexis de Tocqueville",
+      "qid": "Q140694",
+      "name_en": "Alexis de Tocqueville",
+      "name_zh": "亞歷西斯·托克維爾",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 230,
+      "name_pt": "Leon Trotski",
+      "qid": "Q33391",
+      "name_en": "Leon Trotsky",
+      "name_zh": "列夫·托洛茨基",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 231,
+      "name_pt": "Gilbert Ryle",
+      "qid": "Q313386",
+      "name_en": "Gilbert Ryle",
+      "name_zh": "吉爾伯特·賴爾",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 232,
+      "name_pt": "J.L. Austin",
+      "qid": "Q272615",
+      "name_en": "John Langshaw Austin",
+      "name_zh": "約翰·奧斯丁",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 233,
+      "name_pt": "Peter Strawson",
+      "qid": "Q311760",
+      "name_en": "P. F. Strawson",
+      "name_zh": "彼得·弗雷德里克·斯特劳森",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 234,
+      "name_pt": "Michael Walzer",
+      "qid": "Q445511",
+      "name_en": "Michael Walzer",
+      "name_zh": "瓦瑟",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 236,
+      "name_pt": "Seyla Benhabib",
+      "qid": "Q263235",
+      "name_en": "Seyla Benhabib",
+      "name_zh": "塞拉‧本哈比",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 237,
+      "name_pt": "Nancy Fraser",
+      "qid": "Q267536",
+      "name_en": "Nancy Fraser",
+      "name_zh": "南希·弗雷泽",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 238,
+      "name_pt": "Byung-Chul Han",
+      "qid": "Q495875",
+      "name_en": "Byung-Chul Han",
+      "name_zh": "韓炳哲",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 239,
+      "name_pt": "Bernard Williams",
+      "qid": "Q345641",
+      "name_en": "Bernard Williams",
+      "name_zh": "伯纳德·威廉姆斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 240,
+      "name_pt": "Thomas Reid",
+      "qid": "Q316347",
+      "name_en": "Thomas Reid",
+      "name_zh": "托马斯·里德",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 241,
+      "name_pt": "Johann Herder",
+      "qid": "Q155547",
+      "name_en": "Johann Gottfried Herder",
+      "name_zh": "约翰·哥特弗雷德·赫尔德",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 242,
+      "name_pt": "Vladimir Soloviev",
+      "qid": "Q282280",
+      "name_en": "Vladimir Solovyov",
+      "name_zh": "弗拉基米爾·索洛維約夫",
+      "score": 40,
+      "confidence": "low",
+      "method": "birth_year+death_year"
+    },
+    {
+      "atlas_id": 243,
+      "name_pt": "Benedetto Croce",
+      "qid": "Q192348",
+      "name_en": "Benedetto Croce",
+      "name_zh": "贝内德托·克罗齐",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 244,
+      "name_pt": "Nicolai Hartmann",
+      "qid": "Q76501",
+      "name_en": "Nicolai Hartmann",
+      "name_zh": "尼古拉·哈特曼",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 245,
+      "name_pt": "Filão de Alexandria",
+      "qid": "Q189597",
+      "name_en": "Philo of Alexandria",
+      "name_zh": "斐洛·尤迪厄斯",
+      "score": 55,
+      "confidence": "medium",
+      "method": "alias_exact+death_year"
+    },
+    {
+      "atlas_id": 246,
+      "name_pt": "Avicebron",
+      "qid": "Q239355",
+      "name_en": "Solomon ibn Gabirol",
+      "name_zh": "伊本·盖比鲁勒",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 247,
+      "name_pt": "Heinrich Heine",
+      "qid": "Q44403",
+      "name_en": "Heinrich Heine",
+      "name_zh": "克里斯蒂安·約翰·海因里希·海涅",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 248,
+      "name_pt": "Harriet Taylor Mill",
+      "qid": "Q240782",
+      "name_en": "Harriet Taylor Mill",
+      "name_zh": "哈丽雅特·泰勒·密尔",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 249,
+      "name_pt": "Piotr Kropotkin",
+      "qid": "Q5752",
+      "name_en": "Peter Kropotkin",
+      "name_zh": "彼得·阿列克谢耶维奇·克鲁泡特金",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 250,
+      "name_pt": "Edith Stein",
+      "qid": "Q76749",
+      "name_en": "Edith Stein",
+      "name_zh": "埃迪特·施泰因",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 251,
+      "name_pt": "Nicole Oresme",
+      "qid": "Q310777",
+      "name_en": "Nicole Oresme",
+      "name_zh": "尼克爾·奧里斯姆",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 252,
+      "name_pt": "Ibn Arabi",
+      "qid": "Q46420",
+      "name_en": "Ibn Arabi",
+      "name_zh": "伊本·阿拉比",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 253,
+      "name_pt": "Emmanuel Levinas",
+      "qid": "Q153034",
+      "name_en": "Emmanuel Levinas",
+      "name_zh": "伊曼紐爾·列維納斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 254,
+      "name_pt": "Amartya Sen",
+      "qid": "Q132489",
+      "name_en": "Amartya Sen",
+      "name_zh": "阿马蒂亚·库马尔·森",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 255,
+      "name_pt": "Kwame Nkrumah",
+      "qid": "Q8620",
+      "name_en": "Kwame Nkrumah",
+      "name_zh": "克瓦米·恩克鲁玛",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 256,
+      "name_pt": "Gianni Vattimo",
+      "qid": "Q159648",
+      "name_en": "Gianni Vattimo",
+      "name_zh": "吉安尼·瓦蒂莫",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 257,
+      "name_pt": "Zygmunt Bauman",
+      "qid": "Q158092",
+      "name_en": "Zygmunt Bauman",
+      "name_zh": "齐格蒙特·鲍曼",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 258,
+      "name_pt": "Donald Davidson",
+      "qid": "Q311772",
+      "name_en": "Donald Davidson",
+      "name_zh": "唐纳德·戴维森",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 259,
+      "name_pt": "Mahatma Gandhi",
+      "qid": "Q1001",
+      "name_en": "Mahatma Gandhi",
+      "name_zh": "圣雄甘地",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 260,
+      "name_pt": "Philippa Foot",
+      "qid": "Q297493",
+      "name_en": "Philippa Foot",
+      "name_zh": "菲利帕·福特",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 261,
+      "name_pt": "Susanne Langer",
+      "qid": "Q466026",
+      "name_en": "Susanne Langer",
+      "name_zh": "蘇珊·朗格",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 262,
+      "name_pt": "Wilfrid Sellars",
+      "qid": "Q712462",
+      "name_en": "Wilfrid Sellars",
+      "name_zh": "威尔弗里德·塞拉斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 263,
+      "name_pt": "Robert Brandom",
+      "qid": "Q1312168",
+      "name_en": "Robert Brandom",
+      "name_zh": "罗伯特·布兰顿",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 264,
+      "name_pt": "Alasdair MacIntyre",
+      "qid": "Q310178",
+      "name_en": "Alasdair MacIntyre",
+      "name_zh": "阿拉斯代尔·麦金泰尔",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 265,
+      "name_pt": "Iris Murdoch",
+      "qid": "Q217495",
+      "name_en": "Iris Murdoch",
+      "name_zh": "艾瑞斯·梅鐸",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 266,
+      "name_pt": "G.E.M. Anscombe",
+      "qid": "Q229646",
+      "name_en": "G. E. M. Anscombe",
+      "name_zh": "伊莉莎白·安斯康姆",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 267,
+      "name_pt": "Kwame Gyekye",
+      "qid": "Q1794906",
+      "name_en": "Kwame Gyekye",
+      "name_zh": "K. 杰切",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 269,
+      "name_pt": "Charles W. Mills",
+      "qid": "Q5083233",
+      "name_en": "Charles W. Mills",
+      "name_zh": null,
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 270,
+      "name_pt": "Rabindranath Tagore",
+      "qid": "Q7241",
+      "name_en": "Rabindranath Tagore",
+      "name_zh": "罗宾德拉纳特·泰戈尔",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 271,
+      "name_pt": "Miranda Fricker",
+      "qid": "Q13522475",
+      "name_en": "Miranda Fricker",
+      "name_zh": null,
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 272,
+      "name_pt": "Hipátia de Alexandria",
+      "qid": "Q11903",
+      "name_en": "Hypatia",
+      "name_zh": "希帕提婭",
+      "score": 55,
+      "confidence": "medium",
+      "method": "alias_exact+death_year"
+    },
+    {
+      "atlas_id": 273,
+      "name_pt": "Clemente de Alexandria",
+      "qid": "Q188883",
+      "name_en": "Clement of Alexandria",
+      "name_zh": "亞歷山太的革利免",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 274,
+      "name_pt": "Muhammad Abduh",
+      "qid": "Q311826",
+      "name_en": "Muhammad Abduh",
+      "name_zh": "穆罕默德·阿布都",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 275,
+      "name_pt": "Léopold Sédar Senghor",
+      "qid": "Q154545",
+      "name_en": "Léopold Sédar Senghor",
+      "name_zh": "利奥波德·塞达尔·桑戈尔",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 276,
+      "name_pt": "John Mbiti",
+      "qid": "Q459687",
+      "name_en": "John Mbiti",
+      "name_zh": "J.S. 姆比蒂",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 277,
+      "name_pt": "Hassan Hanafi",
+      "qid": "Q1112049",
+      "name_en": "Hasan Hanafi",
+      "name_zh": null,
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 279,
+      "name_pt": "Souleymane Bachir Diagne",
+      "qid": "Q383751",
+      "name_en": "Souleymane Bachir Diagne",
+      "name_zh": null,
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 281,
+      "name_pt": "Val Plumwood",
+      "qid": "Q7909128",
+      "name_en": "Val Plumwood",
+      "name_zh": "瓦爾·普盧姆伍德",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 282,
+      "name_pt": "John Finnis",
+      "qid": "Q3312283",
+      "name_en": "John Finnis",
+      "name_zh": "约翰·芬尼斯",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 283,
+      "name_pt": "Rosalind Hursthouse",
+      "qid": "Q3480230",
+      "name_en": "Rosalind Hursthouse",
+      "name_zh": "羅莎琳德·赫斯特豪斯",
+      "score": 55,
+      "confidence": "medium",
+      "method": "en_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 284,
+      "name_pt": "Jeremy Waldron",
+      "qid": "Q3177364",
+      "name_en": "Jeremy Waldron",
+      "name_zh": null,
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 285,
+      "name_pt": "John Hawthorne",
+      "qid": "Q6238326",
+      "name_en": "John Hawthorne",
+      "name_zh": "約翰·霍索恩",
+      "score": 55,
+      "confidence": "medium",
+      "method": "en_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 286,
+      "name_pt": "Alfred Tarski",
+      "qid": "Q207534",
+      "name_en": "Alfred Tarski",
+      "name_zh": "阿尔弗雷德·塔斯基",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 287,
+      "name_pt": "Jan Łukasiewicz",
+      "qid": "Q313454",
+      "name_en": "Jan Łukasiewicz",
+      "name_zh": "扬·武卡谢维奇",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 288,
+      "name_pt": "Karol Wojtyła",
+      "qid": "Q989",
+      "name_en": "John Paul II",
+      "name_zh": "若望保祿二世",
+      "score": 40,
+      "confidence": "low",
+      "method": "birth_year+death_year"
+    },
+    {
+      "atlas_id": 289,
+      "name_pt": "Imre Lakatos",
+      "qid": "Q296249",
+      "name_en": "Imre Lakatos",
+      "name_zh": "伊姆雷·拉卡托斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 290,
+      "name_pt": "Leszek Kołakowski",
+      "qid": "Q157318",
+      "name_en": "Leszek Kołakowski",
+      "name_zh": "莱谢克·科拉科夫斯基",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 291,
+      "name_pt": "Nikolai Berdyaev",
+      "qid": "Q184656",
+      "name_en": "Nikolai Berdyaev",
+      "name_zh": "尼古拉·亚历山德罗维奇·别尔佳耶夫",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 292,
+      "name_pt": "Mikhail Bakhtin",
+      "qid": "Q185375",
+      "name_en": "Mikhail Bakhtin",
+      "name_zh": "米哈伊尔·巴赫汀",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 293,
+      "name_pt": "Julia Kristeva",
+      "qid": "Q159876",
+      "name_en": "Julia Kristeva",
+      "name_zh": "茱莉亞·克莉斯蒂娃",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 294,
+      "name_pt": "Michael Polanyi",
+      "qid": "Q163087",
+      "name_en": "Michael Polanyi",
+      "name_zh": "迈克尔·波拉尼",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 295,
+      "name_pt": "Mêncio",
+      "qid": "Q188903",
+      "name_en": "Mencius",
+      "name_zh": "孟子",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 296,
+      "name_pt": "D.T. Suzuki",
+      "qid": "Q44847",
+      "name_en": "D. T. Suzuki",
+      "name_zh": "鈴木大拙",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 297,
+      "name_pt": "Han Feizi",
+      "qid": "Q28959",
+      "name_en": "Han Fei",
+      "name_zh": "韓非",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 298,
+      "name_pt": "Guo Xiang",
+      "qid": "Q1291953",
+      "name_en": "Guo Xiang",
+      "name_zh": "郭象",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 299,
+      "name_pt": "Feng Youlan",
+      "qid": "Q557220",
+      "name_en": "Feng Youlan",
+      "name_zh": "冯友兰",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 300,
+      "name_pt": "Mou Zongsan",
+      "qid": "Q6918843",
+      "name_en": "Mou Tsung-san",
+      "name_zh": "牟宗三",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 301,
+      "name_pt": "Jaegwon Kim",
+      "qid": "Q180893",
+      "name_en": "Jaegwon Kim",
+      "name_zh": "金在权",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 302,
+      "name_pt": "Tu Weiming",
+      "qid": "Q710092",
+      "name_en": "Tu Weiming",
+      "name_zh": "杜维明",
+      "score": 55,
+      "confidence": "medium",
+      "method": "en_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 303,
+      "name_pt": "Adi Shankara",
+      "qid": "Q180967",
+      "name_en": "Ādi Shankara",
+      "name_zh": "阿迪·商羯罗",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 304,
+      "name_pt": "Guru Nanak",
+      "qid": "Q83322",
+      "name_en": "Guru Nanak",
+      "name_zh": "拿那克",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 305,
+      "name_pt": "Dharmakirti",
+      "qid": "Q457990",
+      "name_en": "Dharmakirti",
+      "name_zh": "法称",
+      "score": 45,
+      "confidence": "low",
+      "method": "pt_label_exact+birth_year_mismatch+death_year"
+    },
+    {
+      "atlas_id": 306,
+      "name_pt": "Vasubandhu",
+      "qid": "Q316343",
+      "name_en": "Vasubandhu",
+      "name_zh": "世亲",
+      "score": 55,
+      "confidence": "medium",
+      "method": "en_label_exact+death_year"
+    },
+    {
+      "atlas_id": 307,
+      "name_pt": "Kabir",
+      "qid": "Q312551",
+      "name_en": "Kabir",
+      "name_zh": "迦比尔",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 309,
+      "name_pt": "Candrakīrti",
+      "qid": "Q456963",
+      "name_en": "Candrakīrti",
+      "name_zh": "月称",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 310,
+      "name_pt": "Basava",
+      "qid": "Q771686",
+      "name_en": "Basava",
+      "name_zh": null,
+      "score": 35,
+      "confidence": "low",
+      "method": "en_label_exact"
+    },
+    {
+      "atlas_id": 311,
+      "name_pt": "Newton da Costa",
+      "qid": "Q5365379",
+      "name_en": "Newton da Costa",
+      "name_zh": null,
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 313,
+      "name_pt": "Walter Mignolo",
+      "qid": "Q497968",
+      "name_en": "Walter Mignolo",
+      "name_zh": "瓦爾特·米尼奧羅",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 315,
+      "name_pt": "Ernesto Laclau",
+      "qid": "Q454802",
+      "name_en": "Ernesto Laclau",
+      "name_zh": "埃内斯托·拉克劳",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 316,
+      "name_pt": "Ernest Sosa",
+      "qid": "Q1356547",
+      "name_en": "Ernest Sosa",
+      "name_zh": "欧内斯特·索萨",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 317,
+      "name_pt": "José Gaos",
+      "qid": "Q3774796",
+      "name_en": "José Gaos",
+      "name_zh": null,
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 318,
+      "name_pt": "María Lugones",
+      "qid": "Q6761379",
+      "name_en": "Maria Lugones",
+      "name_zh": null,
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 319,
+      "name_pt": "Mohammed Arkoun",
+      "qid": "Q2738498",
+      "name_en": "Mohammed Arkoun",
+      "name_zh": "穆罕默德·阿庫恩",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 320,
+      "name_pt": "Ifeanyi Menkiti",
+      "qid": "Q5991134",
+      "name_en": "Ifeanyi Menkiti",
+      "name_zh": null,
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 321,
+      "name_pt": "Nasr Hamid Abu Zayd",
+      "qid": "Q560307",
+      "name_en": "Nasr Abu Zayd",
+      "name_zh": null,
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 322,
+      "name_pt": "John McDowell",
+      "qid": "Q1252398",
+      "name_en": "John McDowell",
+      "name_zh": "麥克道威爾",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 323,
+      "name_pt": "Kazimierz Twardowski",
+      "qid": "Q381994",
+      "name_en": "Kazimierz Twardowski",
+      "name_zh": "卡济梅尔兹·塔多斯基",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 324,
+      "name_pt": "Stanisław Leśniewski",
+      "qid": "Q528493",
+      "name_en": "Stanisław Leśniewski",
+      "name_zh": "斯坦尼斯瓦夫·雷斯涅夫斯基",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 325,
+      "name_pt": "Abraham Joshua Heschel",
+      "qid": "Q215833",
+      "name_en": "Abraham Joshua Heschel",
+      "name_zh": "亞伯拉罕·約書亞·赫舍爾",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 326,
+      "name_pt": "Roman Ingarden",
+      "qid": "Q355355",
+      "name_en": "Roman Ingarden",
+      "name_zh": "罗曼·英伽登",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 327,
+      "name_pt": "Lou Andreas-Salomé",
+      "qid": "Q38873",
+      "name_en": "Lou Andreas-Salomem",
+      "name_zh": "露·安德烈亚斯·莎乐美",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 328,
+      "name_pt": "Mohammed Iqbal",
+      "qid": "Q484141",
+      "name_en": "Muhammad Iqbal",
+      "name_zh": "穆罕默德·伊克巴勒",
+      "score": 40,
+      "confidence": "low",
+      "method": "birth_year+death_year"
+    },
+    {
+      "atlas_id": 329,
+      "name_pt": "Sarvepalli Radhakrishnan",
+      "qid": "Q156349",
+      "name_en": "Sarvepalli Radhakrishnan",
+      "name_zh": "萨瓦帕利·拉达克里希南",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 330,
+      "name_pt": "Jiddu Krishnamurti",
+      "qid": "Q179266",
+      "name_en": "Jiddu Krishnamurti",
+      "name_zh": "吉杜·克里希那穆提",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 331,
+      "name_pt": "Dignāga",
+      "qid": "Q558272",
+      "name_en": "Dignāga",
+      "name_zh": "陈那",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 333,
+      "name_pt": "Zisi",
+      "qid": "Q1147803",
+      "name_en": "Zisi",
+      "name_zh": "孔伋",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 334,
+      "name_pt": "Cheng Yi",
+      "qid": "Q558380",
+      "name_en": "Cheng Yi",
+      "name_zh": "程颐",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 335,
+      "name_pt": "Xiong Shili",
+      "qid": "Q699536",
+      "name_en": "Xiong Shili",
+      "name_zh": "熊十力",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 336,
+      "name_pt": "Liang Shuming",
+      "qid": "Q1167488",
+      "name_en": "Liang Shuming",
+      "name_zh": "梁漱溟",
+      "score": 75,
+      "confidence": "high",
+      "method": "en_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 337,
+      "name_pt": "Wang Bi",
+      "qid": "Q459865",
+      "name_en": "Wang Bi",
+      "name_zh": "王弼",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 338,
+      "name_pt": "Adolfo Sánchez Vázquez",
+      "qid": "Q365193",
+      "name_en": "Adolfo Sánchez Vázquez",
+      "name_zh": "阿道弗·桑切斯·巴斯克斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 339,
+      "name_pt": "Luis Villoro",
+      "qid": "Q2370396",
+      "name_en": "Luis Villoro",
+      "name_zh": "路易斯·维尧罗",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 340,
+      "name_pt": "Arturo Andrés Roig",
+      "qid": "Q2865932",
+      "name_en": "Arturo Andrés Roig",
+      "name_zh": null,
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 341,
+      "name_pt": "Vladimir Safatle",
+      "qid": "Q10392247",
+      "name_en": "Vladimir Safatle",
+      "name_zh": null,
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 342,
+      "name_pt": "Santiago Castro-Gómez",
+      "qid": "Q2884296",
+      "name_en": "Santiago Castro-Gómez",
+      "name_zh": null,
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 343,
+      "name_pt": "Anaxímenes",
+      "qid": "Q80612",
+      "name_en": "Anaximenes of Miletus",
+      "name_zh": "阿那克西美尼",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 344,
+      "name_pt": "Xenófanes",
+      "qid": "Q131671",
+      "name_en": "Xenophanes",
+      "name_zh": "色诺芬尼",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 347,
+      "name_pt": "Trasímaco",
+      "qid": "Q320955",
+      "name_en": "Thrasymachus",
+      "name_zh": "塞拉西马柯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 348,
+      "name_pt": "Diógenes de Sinope",
+      "qid": "Q59180",
+      "name_en": "Diogenes of Sinope",
+      "name_zh": "锡诺普的第欧根尼",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+death_year"
+    },
+    {
+      "atlas_id": 349,
+      "name_pt": "Espeusipo",
+      "qid": "Q325955",
+      "name_en": "Speusippus",
+      "name_zh": "斯珀西波斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 350,
+      "name_pt": "Xenócrates",
+      "qid": "Q214121",
+      "name_en": "Xenocrates",
+      "name_zh": "色诺克拉底",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 351,
+      "name_pt": "Teofrasto",
+      "qid": "Q160362",
+      "name_en": "Theophrastus",
+      "name_zh": "泰奧弗拉斯托斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 352,
+      "name_pt": "Cleantes",
+      "qid": "Q310149",
+      "name_en": "Cleanthes",
+      "name_zh": "克里安西斯",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 353,
+      "name_pt": "Crisipo",
+      "qid": "Q211411",
+      "name_en": "Chrysippus of Soli",
+      "name_zh": "克律西波斯",
+      "score": 55,
+      "confidence": "medium",
+      "method": "contains+birth_year+death_year"
+    },
+    {
+      "atlas_id": 354,
+      "name_pt": "Carnéades",
+      "qid": "Q284994",
+      "name_en": "Carneades",
+      "name_zh": "卡尔内阿德斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 355,
+      "name_pt": "Posidônio",
+      "qid": "Q185770",
+      "name_en": "Posidonius",
+      "name_zh": "波希多尼",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 357,
+      "name_pt": "Orígenes",
+      "qid": "Q170472",
+      "name_en": "Origen",
+      "name_zh": "俄利根",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 358,
+      "name_pt": "Porfírio",
+      "qid": "Q203445",
+      "name_en": "Porphyry",
+      "name_zh": "波菲利",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 360,
+      "name_pt": "Basílio Magno",
+      "qid": "Q44258",
+      "name_en": "Basil of Caesarea",
+      "name_zh": "該撒利亞的巴西流",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 364,
+      "name_pt": "Al-Razi",
+      "qid": "Q169234",
+      "name_en": "Abu Bakr al-Razi",
+      "name_zh": "拉齐",
+      "score": 75,
+      "confidence": "high",
+      "method": "alias_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 365,
+      "name_pt": "Ibn Hazm",
+      "qid": "Q317787",
+      "name_en": "Ibn Hazm",
+      "name_zh": "伊本·哈兹姆",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 366,
+      "name_pt": "Ibn Bajja",
+      "qid": "Q11362",
+      "name_en": "Avempace",
+      "name_zh": "伊本·巴哲",
+      "score": 55,
+      "confidence": "medium",
+      "method": "alias_exact+death_year"
+    },
+    {
+      "atlas_id": 367,
+      "name_pt": "Ibn Tufail",
+      "qid": "Q251259",
+      "name_en": "Ibn Tufayl",
+      "name_zh": "伊本·圖菲利",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+death_year"
+    },
+    {
+      "atlas_id": 368,
+      "name_pt": "Fakhr al-Din al-Razi",
+      "qid": "Q333703",
+      "name_en": "Fakhr al-Din al-Razi",
+      "name_zh": "法庫魯定 阿爾-拉只",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 369,
+      "name_pt": "Nasir al-Din al-Tusi",
+      "qid": "Q302835",
+      "name_en": "Nasir al-Din al-Tusi",
+      "name_zh": "纳西尔丁·图西",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 370,
+      "name_pt": "Roscelino de Compiègne",
+      "qid": "Q297435",
+      "name_en": "Roscellinus",
+      "name_zh": "羅塞林",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+birth_year"
+    },
+    {
+      "atlas_id": 371,
+      "name_pt": "Hugo de São Vítor",
+      "qid": "Q317554",
+      "name_en": "Hugh of Saint Victor",
+      "name_zh": "聖維克托的休格",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 372,
+      "name_pt": "João de Salisbury",
+      "qid": "Q264028",
+      "name_en": "John of Salisbury",
+      "name_zh": "索尔兹伯里的约翰",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+death_year"
+    },
+    {
+      "atlas_id": 373,
+      "name_pt": "Roberto Grosseteste",
+      "qid": "Q256541",
+      "name_en": "Robert Grosseteste",
+      "name_zh": "罗伯特·格罗斯泰斯特",
+      "score": 60,
+      "confidence": "medium",
+      "method": "pt_label_exact+death_year"
+    },
+    {
+      "atlas_id": 374,
+      "name_pt": "Boaventura",
+      "qid": "Q43746",
+      "name_en": "Bonaventure",
+      "name_zh": "圣文德",
+      "score": 35,
+      "confidence": "low",
+      "method": "contains+death_year"
+    },
+    {
+      "atlas_id": 378,
+      "name_pt": "João Wycliffe",
+      "qid": "Q173893",
+      "name_en": "John Wycliffe",
+      "name_zh": "約翰·威克里夫",
+      "score": 55,
+      "confidence": "medium",
+      "method": "alias_exact+death_year"
+    },
+    {
+      "atlas_id": 379,
+      "name_pt": "Jan Hus",
+      "qid": "Q43977",
+      "name_en": "Jan Hus",
+      "name_zh": "扬·胡斯",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    },
+    {
+      "atlas_id": 381,
+      "name_pt": "João Damasceno",
+      "qid": "Q51884",
+      "name_en": "John of Damascus",
+      "name_zh": "大馬士革的聖約翰",
+      "score": 80,
+      "confidence": "high",
+      "method": "pt_label_exact+birth_year+death_year"
+    }
+  ],
+  "unmatched": [
+    {
+      "atlas_id": 21,
+      "name_pt": "Montaigne",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 28,
+      "name_pt": "Berkeley",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 29,
+      "name_pt": "Hume",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 58,
+      "name_pt": "Wittgenstein",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 79,
+      "name_pt": "Gautama Buda",
+      "reason": "below_threshold(best=-15,method=birth_year_mismatch)"
+    },
+    {
+      "atlas_id": 91,
+      "name_pt": "Laozi",
+      "reason": "below_threshold(best=25,method=pt_label_exact+death_year_mismatch)"
+    },
+    {
+      "atlas_id": 115,
+      "name_pt": "Fray Bartolomé de las Casas",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 186,
+      "name_pt": "Wonhyo",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 196,
+      "name_pt": "Crisipo de Solos",
+      "reason": "below_threshold(best=10,method=pt_label_exact+birth_year_mismatch+death_year_mismatch)"
+    },
+    {
+      "atlas_id": 215,
+      "name_pt": "Górgias",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 228,
+      "name_pt": "Otto von Bismarck",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 229,
+      "name_pt": "Vladimir Lenin",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 268,
+      "name_pt": "Francisco Romero",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 278,
+      "name_pt": "Steve Biko",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 280,
+      "name_pt": "David Armstrong",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 308,
+      "name_pt": "Kumārila Bhaṭṭa",
+      "reason": "below_threshold(best=20,method=en_label_exact+birth_year_mismatch)"
+    },
+    {
+      "atlas_id": 312,
+      "name_pt": "Aníbal Quijano",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 314,
+      "name_pt": "Eduardo Viveiros de Castro",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 332,
+      "name_pt": "Udayana",
+      "reason": "below_threshold(best=20,method=en_label_exact+death_year_mismatch)"
+    },
+    {
+      "atlas_id": 345,
+      "name_pt": "Leucipo",
+      "reason": "below_threshold(best=20,method=alias_exact+death_year_mismatch)"
+    },
+    {
+      "atlas_id": 346,
+      "name_pt": "Antifonte",
+      "reason": "below_threshold(best=0,method=no_evidence)"
+    },
+    {
+      "atlas_id": 356,
+      "name_pt": "Sexto Empírico",
+      "reason": "below_threshold(best=10,method=pt_label_exact+birth_year_mismatch+death_year_mismatch)"
+    },
+    {
+      "atlas_id": 359,
+      "name_pt": "Atanásio de Alexandria",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 361,
+      "name_pt": "Gregório de Nissa",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 362,
+      "name_pt": "Pseudo-Dionísio Areopagita",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 363,
+      "name_pt": "Máximo o Confessor",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 376,
+      "name_pt": "Sigério de Brabante",
+      "reason": "below_threshold(best=20,method=death_year)"
+    },
+    {
+      "atlas_id": 377,
+      "name_pt": "João Buridan",
+      "reason": "no_candidates"
+    },
+    {
+      "atlas_id": 380,
+      "name_pt": "Nicolau de Autrecourt",
+      "reason": "no_candidates"
+    }
+  ],
+  "stats": {
+    "total": 376,
+    "aligned": 347,
+    "unmatched": 29,
+    "rate": 0.9229,
+    "confidence": {
+      "high": 242,
+      "medium": 89,
+      "low": 16
+    },
+    "name_en_filled": 345,
+    "name_zh_filled": 322
+  }
+}

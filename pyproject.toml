@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fd-zhesi-reference"
+version = "0.1.0"
+description = "哲思（zhesi 线）参照系 MCP：哲学概念/人物/关系/立场分布四层外部真源的对接组装与查询，逐结果溯源，可私有化部署。"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "FindDataTechnology" }]
+dependencies = [
+    "fastmcp>=3.4,<4",
+    "click",
+    "uvicorn",
+    "httpx",
+    "sparqlwrapper>=2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-asyncio"]
+
+[project.scripts]
+fd-zhesi-reference = "fd_zhesi_reference.cli:cli"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.setuptools]
+packages = ["fd_zhesi_reference"]

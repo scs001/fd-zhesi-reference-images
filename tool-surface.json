@@ -1,0 +1,17 @@
+{
+  "schema": "mcp-tool-surface/v1",
+  "server": "fd-zhesi-reference",
+  "entry_path": "/fd-zhesi-reference",
+  "product_line": "lex",
+  "hosting": ["shared-instance"],
+  "description": "哲思（zhesi 线）参照系 MCP：哲学概念（SEP 引用层）、人物与六轴坐标、关系边（含极性）、立场分布。四层外部真源对接组装（不自建抽取），逐结果溯源（Atlas CC BY 4.0 署名随行），可私有化部署。",
+  "tools": [
+    {"name": "concept_lookup", "tracking_task": "2.4"},
+    {"name": "philosopher_query", "tracking_task": "2.2"},
+    {"name": "relation_query", "tracking_task": "2.2"},
+    {"name": "stance_distribution", "tracking_task": "2.5"},
+    {"name": "source_status", "tracking_task": "2.6"}
+  ],
+  "skills_eligible_for_packs": [],
+  "notes": "骨架期全部工具以诚实错误回报未接线状态（HonestError 含 tracking task），不编造数据。"
+}

@@ -1,0 +1,684 @@
+{
+ "round": "2009",
+ "source_url": "https://web.archive.org/web/20230424171640id_/https://philpapers.org/surveys/results.pl",
+ "snapshot_ts": "20230424171640",
+ "respondents": 931,
+ "tabulation": "preliminary-wave results.pl (Wayback capture of philpapers.org/surveys/results.pl; 31 question blocks incl. both trolley variants; final published paper tabulation differs, see docs/survey-probe.md)",
+ "questions": [
+  {
+   "question": "A priori knowledge: yes or no?",
+   "options": [
+    {
+     "label": "yes",
+     "count": 655,
+     "pct": 70.4
+    },
+    {
+     "label": "no",
+     "count": 176,
+     "pct": 18.9
+    },
+    {
+     "label": "other",
+     "count": 100,
+     "pct": 10.7
+    }
+   ]
+  },
+  {
+   "question": "Abstract objects: Platonism or nominalism?",
+   "options": [
+    {
+     "label": "Platonism",
+     "count": 366,
+     "pct": 39.3
+    },
+    {
+     "label": "nominalism",
+     "count": 377,
+     "pct": 40.5
+    },
+    {
+     "label": "other",
+     "count": 188,
+     "pct": 20.2
+    }
+   ]
+  },
+  {
+   "question": "Aesthetic value: objective or subjective?",
+   "options": [
+    {
+     "label": "objective",
+     "count": 248,
+     "pct": 26.6
+    },
+    {
+     "label": "subjective",
+     "count": 533,
+     "pct": 57.2
+    },
+    {
+     "label": "other",
+     "count": 150,
+     "pct": 16.1
+    }
+   ]
+  },
+  {
+   "question": "Analytic-synthetic distinction: yes or no?",
+   "options": [
+    {
+     "label": "yes",
+     "count": 459,
+     "pct": 49.3
+    },
+    {
+     "label": "no",
+     "count": 323,
+     "pct": 34.7
+    },
+    {
+     "label": "other",
+     "count": 149,
+     "pct": 16.0
+    }
+   ]
+  },
+  {
+   "question": "Epistemic justification: internalism or externalism?",
+   "options": [
+    {
+     "label": "internalism",
+     "count": 253,
+     "pct": 27.2
+    },
+    {
+     "label": "externalism",
+     "count": 363,
+     "pct": 39.0
+    },
+    {
+     "label": "other",
+     "count": 315,
+     "pct": 33.8
+    }
+   ]
+  },
+  {
+   "question": "External world: idealism, skepticism, or non-skeptical realism?",
+   "options": [
+    {
+     "label": "idealism",
+     "count": 24,
+     "pct": 2.6
+    },
+    {
+     "label": "skepticism",
+     "count": 60,
+     "pct": 6.4
+    },
+    {
+     "label": "non-skeptical realism",
+     "count": 743,
+     "pct": 79.8
+    },
+    {
+     "label": "other",
+     "count": 104,
+     "pct": 11.2
+    }
+   ]
+  },
+  {
+   "question": "Free will: compatibilism, libertarianism, or no free will?",
+   "options": [
+    {
+     "label": "compatibilism",
+     "count": 550,
+     "pct": 59.1
+    },
+    {
+     "label": "libertarianism",
+     "count": 130,
+     "pct": 14.0
+    },
+    {
+     "label": "no free will",
+     "count": 205,
+     "pct": 22.0
+    },
+    {
+     "label": "other",
+     "count": 46,
+     "pct": 4.9
+    }
+   ]
+  },
+  {
+   "question": "God: theism or atheism?",
+   "options": [
+    {
+     "label": "theism",
+     "count": 143,
+     "pct": 15.4
+    },
+    {
+     "label": "atheism",
+     "count": 678,
+     "pct": 72.8
+    },
+    {
+     "label": "other",
+     "count": 110,
+     "pct": 11.8
+    }
+   ]
+  },
+  {
+   "question": "Knowledge claims: contextualism, relativism, or invariantism?",
+   "options": [
+    {
+     "label": "contextualism",
+     "count": 309,
+     "pct": 33.1
+    },
+    {
+     "label": "relativism",
+     "count": 48,
+     "pct": 5.2
+    },
+    {
+     "label": "invariantism",
+     "count": 306,
+     "pct": 32.9
+    },
+    {
+     "label": "other",
+     "count": 268,
+     "pct": 28.8
+    }
+   ]
+  },
+  {
+   "question": "Knowledge: empiricism or rationalism?",
+   "options": [
+    {
+     "label": "empiricism",
+     "count": 393,
+     "pct": 42.2
+    },
+    {
+     "label": "rationalism",
+     "count": 263,
+     "pct": 28.2
+    },
+    {
+     "label": "other",
+     "count": 275,
+     "pct": 29.5
+    }
+   ]
+  },
+  {
+   "question": "Laws of nature: Humean or non-Humean?",
+   "options": [
+    {
+     "label": "Humean",
+     "count": 190,
+     "pct": 20.4
+    },
+    {
+     "label": "non-Humean",
+     "count": 439,
+     "pct": 47.1
+    },
+    {
+     "label": "other",
+     "count": 302,
+     "pct": 32.4
+    }
+   ]
+  },
+  {
+   "question": "Logic: classical or non-classical?",
+   "options": [
+    {
+     "label": "classical",
+     "count": 403,
+     "pct": 43.3
+    },
+    {
+     "label": "non-classical",
+     "count": 227,
+     "pct": 24.4
+    },
+    {
+     "label": "other",
+     "count": 301,
+     "pct": 32.3
+    }
+   ]
+  },
+  {
+   "question": "Mental content: internalism or externalism?",
+   "options": [
+    {
+     "label": "internalism",
+     "count": 223,
+     "pct": 24.0
+    },
+    {
+     "label": "externalism",
+     "count": 384,
+     "pct": 41.2
+    },
+    {
+     "label": "other",
+     "count": 324,
+     "pct": 34.8
+    }
+   ]
+  },
+  {
+   "question": "Meta-ethics: moral realism, moral anti-realism, or error theory?",
+   "options": [
+    {
+     "label": "moral realism",
+     "count": 421,
+     "pct": 45.2
+    },
+    {
+     "label": "moral anti-realism",
+     "count": 345,
+     "pct": 37.1
+    },
+    {
+     "label": "error theory",
+     "count": 50,
+     "pct": 5.4
+    },
+    {
+     "label": "other",
+     "count": 115,
+     "pct": 12.4
+    }
+   ]
+  },
+  {
+   "question": "Metaphilosophy: naturalism or non-naturalism?",
+   "options": [
+    {
+     "label": "naturalism",
+     "count": 470,
+     "pct": 50.5
+    },
+    {
+     "label": "non-naturalism",
+     "count": 230,
+     "pct": 24.7
+    },
+    {
+     "label": "other",
+     "count": 231,
+     "pct": 24.8
+    }
+   ]
+  },
+  {
+   "question": "Mind: physicalism or non-physicalism?",
+   "options": [
+    {
+     "label": "physicalism",
+     "count": 519,
+     "pct": 55.8
+    },
+    {
+     "label": "non-physicalism",
+     "count": 251,
+     "pct": 27.0
+    },
+    {
+     "label": "other",
+     "count": 161,
+     "pct": 17.3
+    }
+   ]
+  },
+  {
+   "question": "Moral judgment: cognitivism or non-cognitivism?",
+   "options": [
+    {
+     "label": "cognitivism",
+     "count": 584,
+     "pct": 62.7
+    },
+    {
+     "label": "non-cognitivism",
+     "count": 187,
+     "pct": 20.1
+    },
+    {
+     "label": "other",
+     "count": 160,
+     "pct": 17.2
+    }
+   ]
+  },
+  {
+   "question": "Moral motivation: internalism or externalism?",
+   "options": [
+    {
+     "label": "internalism",
+     "count": 259,
+     "pct": 27.8
+    },
+    {
+     "label": "externalism",
+     "count": 242,
+     "pct": 26.0
+    },
+    {
+     "label": "other",
+     "count": 430,
+     "pct": 46.2
+    }
+   ]
+  },
+  {
+   "question": "Newcomb's problem: one box or two boxes?",
+   "options": [
+    {
+     "label": "one box",
+     "count": 317,
+     "pct": 34.0
+    },
+    {
+     "label": "two boxes",
+     "count": 422,
+     "pct": 45.3
+    },
+    {
+     "label": "other",
+     "count": 192,
+     "pct": 20.6
+    }
+   ]
+  },
+  {
+   "question": "Normative ethics: deontology, consequentialism, or virtue ethics?",
+   "options": [
+    {
+     "label": "deontology",
+     "count": 232,
+     "pct": 24.9
+    },
+    {
+     "label": "consequentialism",
+     "count": 191,
+     "pct": 20.5
+    },
+    {
+     "label": "virtue ethics",
+     "count": 171,
+     "pct": 18.4
+    },
+    {
+     "label": "other",
+     "count": 337,
+     "pct": 36.2
+    }
+   ]
+  },
+  {
+   "question": "Perceptual experience: disjunctivism, qualia theory, representationalism, or sense-datum theory?",
+   "options": [
+    {
+     "label": "disjunctivism",
+     "count": 66,
+     "pct": 7.1
+    },
+    {
+     "label": "qualia theory",
+     "count": 51,
+     "pct": 5.5
+    },
+    {
+     "label": "representationalism",
+     "count": 304,
+     "pct": 32.7
+    },
+    {
+     "label": "sense-datum theory",
+     "count": 25,
+     "pct": 2.7
+    },
+    {
+     "label": "other",
+     "count": 485,
+     "pct": 52.1
+    }
+   ]
+  },
+  {
+   "question": "Personal identity: psychological view, biological view, or further-fact view?",
+   "options": [
+    {
+     "label": "psychological view",
+     "count": 333,
+     "pct": 35.8
+    },
+    {
+     "label": "biological view",
+     "count": 168,
+     "pct": 18.0
+    },
+    {
+     "label": "further-fact view",
+     "count": 79,
+     "pct": 8.5
+    },
+    {
+     "label": "other",
+     "count": 351,
+     "pct": 37.7
+    }
+   ]
+  },
+  {
+   "question": "Politics: communitarianism, egalitarianism, or libertarianism?",
+   "options": [
+    {
+     "label": "communitarianism",
+     "count": 107,
+     "pct": 11.5
+    },
+    {
+     "label": "egalitarianism",
+     "count": 322,
+     "pct": 34.6
+    },
+    {
+     "label": "libertarianism",
+     "count": 143,
+     "pct": 15.4
+    },
+    {
+     "label": "other",
+     "count": 359,
+     "pct": 38.6
+    }
+   ]
+  },
+  {
+   "question": "Proper names: Fregean or Millian?",
+   "options": [
+    {
+     "label": "Fregean",
+     "count": 276,
+     "pct": 29.6
+    },
+    {
+     "label": "Millian",
+     "count": 196,
+     "pct": 21.1
+    },
+    {
+     "label": "other",
+     "count": 459,
+     "pct": 49.3
+    }
+   ]
+  },
+  {
+   "question": "Science: scientific realism or scientific anti-realism?",
+   "options": [
+    {
+     "label": "scientific realism",
+     "count": 516,
+     "pct": 55.4
+    },
+    {
+     "label": "scientific anti-realism",
+     "count": 178,
+     "pct": 19.1
+    },
+    {
+     "label": "other",
+     "count": 237,
+     "pct": 25.5
+    }
+   ]
+  },
+  {
+   "question": "Teletransporter (new matter): survival or death?",
+   "options": [
+    {
+     "label": "survival",
+     "count": 286,
+     "pct": 30.7
+    },
+    {
+     "label": "death",
+     "count": 440,
+     "pct": 47.3
+    },
+    {
+     "label": "other",
+     "count": 205,
+     "pct": 22.0
+    }
+   ]
+  },
+  {
+   "question": "Time: A-theory or B-theory?",
+   "options": [
+    {
+     "label": "A-theory",
+     "count": 206,
+     "pct": 22.1
+    },
+    {
+     "label": "B-theory",
+     "count": 305,
+     "pct": 32.8
+    },
+    {
+     "label": "other",
+     "count": 420,
+     "pct": 45.1
+    }
+   ]
+  },
+  {
+   "question": "Trolley problem (five straight ahead, one on side track, turn requires switching): switch or don't switch?",
+   "options": [
+    {
+     "label": "switch",
+     "count": 785,
+     "pct": 84.3
+    },
+    {
+     "label": "don't switch",
+     "count": 26,
+     "pct": 2.8
+    },
+    {
+     "label": "other",
+     "count": 120,
+     "pct": 12.9
+    }
+   ]
+  },
+  {
+   "question": "Trolley problem (one on bridge): push or don't push?",
+   "options": [
+    {
+     "label": "push",
+     "count": 167,
+     "pct": 17.9
+    },
+    {
+     "label": "don't push",
+     "count": 639,
+     "pct": 68.6
+    },
+    {
+     "label": "other",
+     "count": 125,
+     "pct": 13.4
+    }
+   ]
+  },
+  {
+   "question": "Truth: correspondence, deflationary, or epistemic?",
+   "options": [
+    {
+     "label": "correspondence",
+     "count": 428,
+     "pct": 46.0
+    },
+    {
+     "label": "deflationary",
+     "count": 272,
+     "pct": 29.2
+    },
+    {
+     "label": "epistemic",
+     "count": 38,
+     "pct": 4.1
+    },
+    {
+     "label": "other",
+     "count": 193,
+     "pct": 20.7
+    }
+   ]
+  },
+  {
+   "question": "Zombies: inconceivable, conceivable but not metaphysically possible, or metaphysically possible?",
+   "options": [
+    {
+     "label": "inconceivable",
+     "count": 159,
+     "pct": 17.1
+    },
+    {
+     "label": "conceivable but not metaphysically possible",
+     "count": 339,
+     "pct": 36.4
+    },
+    {
+     "label": "metaphysically possible",
+     "count": 235,
+     "pct": 25.2
+    },
+    {
+     "label": "other",
+     "count": 198,
+     "pct": 21.3
+    }
+   ]
+  }
+ ]
+}
